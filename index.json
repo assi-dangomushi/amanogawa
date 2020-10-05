@@ -1,5 +1,40 @@
 [
 {
+	"uri": "https://assi-dangomushi.github.io/amanogawa/gnu-octave/0001octave/",
+	"title": "GNU Octaveの歩き方",
+	"tags": [],
+	"description": "",
+	"content": "GNU Octaveの歩き方 GNU Octave をこれから始める人に役に立ちそうなことをまとめました。具体的な文法などは他のサイト、記事にあたってください。\nGNU Octave とは GNU Octave はフリーの数値計算ソフト（言語）でMATLABと互換性が（ある程度）あります。私はオーディオの測定・解析・フィルタ設計などに使っています。 初心者にも分かりやすく、グラフなども簡単に描けます。\nGNU Octave　公式サイト https://www.gnu.org/software/octave/\nOctave のインストール windows 公式サイトのダウンロードページからインストーラーをダウンロードします。\nmac Homebrewでインストールできるようです（macは持ってないので\u0026hellip;）\nLinux ディストリビューションのパッケージマネージャーを使ってインストールします。flatpakを使う方法も有りますが、ディストリビューションのパッケージマネージャを使うほうが面倒が少ないです。 Ubuntuならコマンドラインで\nsudo apt install octave Raspberry Piに関する注意 標準のRaspbian Busterでグラフが描けない不具合が有ります。Ubuntu64bitなら大丈夫です。 Raspberry Pi でOctave を使う\nOctaveの起動 コマンドラインで\n# GUIで起動 octave --gui # CUIで起動 octave --no-gui オプションを指定しなかった場合にどちらが起動するかはバージョンにより違います。\nパッケージ Octave は色々なパッケージがあって機能拡張することができます。 パッケージの公式ページ https://octave.sourceforge.io/\nパッケージインストール Windowsでは基本的なパッケージはインストール済みです。 Ubuntu の場合にはOctave内からpkgコマンドでインストールするよりもaptを使ってインストールしたほうが楽です。\n# signal packageをインストールする場合（Ubuntu,Debian） sudo apt install octave-signal インストールされているパッケージを表示するにはOctaveのコマンドラインで\noctave\u0026gt; pkg list パッケージのロード パッケージはインストールしただけでは使えません。ロードする必要が有ります。 signal package をロードする場合、Octaveのコマンドラインで\noctave\u0026gt; pkg load signal いつも使うパッケージは ~/.octaverc などに記入してしまいましょう。\nGNU Octave の情報 Octaveの情報をどこで得るか、簡単にまとめました。\n公式サイト なにはともあれ公式サイトのDocsページ オフラインで見たければPDFファイルもあります。 同じものはGUI起動のoctaveのドキュメントタブ CUI起動のoctaveの場合はコマンドラインで\noctave\u0026gt; doc で見ることができます。CUIの場合にはinfoで表示されるのでキー操作に慣れが必要です。\n関数（演算子・キーワード）の情報 octaveコマンドラインでhelpコマンドを使います。 help の後に関数名または演算子、キーワードを入力します。\noctave\u0026gt; help 関数名 関数ファイルのコメントが表示されます。自作関数にもコメントで使用法の説明を入れてhelpコマンドで表示できるようにしておきましょう。\n演算子を表示するにはOctaveのコマンドラインで\noctave\u0026gt; help . 演算子・キーワード・関数をすべて表示する\noctave\u0026gt; help --list この場合でもロードしていないパッケージ内の関数は表示されません。\nパッケージについては https://octave.sourceforge.io/ を参照してください。\nMATLABのサイト Octave はMATLABと互換性があるのでMatlabのサイトが参考になります。 日本語サイト https://jp.mathworks.com/products/matlab.html?s_tid=hp_products_matlab\n中にはoctaveの公式サイトの説明が不完全で、MATLABのサイトを見ないと詳しい使い方がわからない関数もあったりします。 ただし、MATLABにはあるのにOctaveにはない関数も多くあるので注意してください。\nOctave入門 \u0026ldquo;octave入門\u0026quot;あたりでググれば色々なサイトがヒットします。あちこちの大学の講義資料なんかも有ります。 古い情報が多いですが、v2.xの頃と基本的な文法は変わってないのでたいてい大丈夫です。\nOctave のバージョンについて 最新版が良いとは限りません。 v5.0に上がった直後はsignalパッケージのバージョンアップが間に合わずに使えないなんてこともありました。 またUbuntuのLTSは2年に一度でその間、基本的にOctaveのバージョンも変わりません。Octaveのバグフィックスは同じバージョンではなく、次のバージョンになるので（頻繁にバージョンが上がる）うっかりするとバグ入りで不安定なバージョンを使い続けることになります。 Ubuntu20.04に入る5.2.0はそこそこ安定しているようなので、一安心です。\n2020年5月25日\n"
+},
+{
+	"uri": "https://assi-dangomushi.github.io/amanogawa/column/0001why/",
+	"title": "なぜスピーカーを作るのか？",
+	"tags": [],
+	"description": "",
+	"content": "「だから、作れ」と_whyは言った  when you don’t create things, you become defined by your tastes rather than ability. your tastes only narrow \u0026amp; exclude people. so create. – Why the lucky stiff\n  (何も作っていないとき、人は自分の能力よりも好みによって特徴付けられることになる。好みは世界を狭め、他人を排除するばかりだ。だから、作れ)\n  Rails Hub情報局:「だから、作れ」と whyは言った\n プログラマに向けて言った言葉だろうしスピーカーならcreateじゃなくてbuildだろうなんてツッコミもあるでしょうが、ちょっと感動したので引用してみました。\nとりあえず言いたいのは\nまず作れ！話はそれからだ！\nスピーカー工作は簡単なのであれこれ考えている暇があったらとりあえず作ってみることをおすすめします。 キットでも雑誌の付録でも、拾ったユニットでも何でも良いです。 うまく行かなくたって大丈夫。 測定して原因を考え補正すれば大抵の場合にどうにかなります。\nネット上で自作スピーカーだと安くて高音質なものが作れるのか？とかメーカー製に匹敵する音がでるのかなどの質問を見かけることが あります。 はっきり言って愚問です。 全く自作に興味のない人にまで作れとは言いませんが、もし自作スピーカーにちょっとでも興味があるのなら作ってみましょう！\nあのメーカーのスピーカーの音は嫌いだ、このメーカーに限るとか好みを言っていないで\nとにかく作れ！話はそれからだ！(重要なので繰り返してみました)\n2014年11月6日\n"
+},
+{
+	"uri": "https://assi-dangomushi.github.io/amanogawa/gnu-octave/0002pi/",
+	"title": "Raspberry Pi でOctave を使う（2020年5月）",
+	"tags": [],
+	"description": "",
+	"content": "2020年5月7日現在の状況 raspbian buster でGNU Octave （4.4.1）が正常に動作しない。（OpenGLの関係？） GUIが乱れる、グラフがプロットできない。計算はできる。\nraspbian buster 公開直後から不具合情報が上がってましたが、いまだに動作した報告を見つけられませんし、実際に動作しません。\nUbuntu で正常動作した！    OS グラフプロット 備考     raspbian stretch ○ Pi4では使えない   raspbian buster 32bit カーネル ×    raspbian buster 64bit カーネル ×    ubuntu server 19.10.1 32bit × サポート期限2020年7月   ubuntu server 19.10.1 64bit ○ サポート期限2020年7月   ubuntu server 20.04 32bit ×    ubuntu server 20.04 64bit ○    ダメなものはデスクトップ環境はもちろん ssh -X でもダメです。      Ununtu 20.04 のインストール 公式サイト参照 https://ubuntu.com/download/raspberry-pi\nOctaveのインストール\nsudo apt install octave\nUbuntu20.04でインストールされるOctaveのバージョン 5.2.0\n結論 2020年5月7日時点でRaspberry Pi でOctaveを動かす場合には\n Pi0〜Pi3: バージョンが古くても良ければRaspbian Stretch を使用 Pi3 〜 Pi4: UbuntuServer 20.04(64bit)にデスクトップ環境を入れて使用 (ssh -X で使用するならデスクトップ環境がなくても可)  原因や対策については全く調べられていません。 単なる動作報告です。他のディストリビューションは試してないので情報がある方はコメントください。 またRaspbianで動作した報告があれば教えてください。\n2020年5月7日\n"
+},
+{
+	"uri": "https://assi-dangomushi.github.io/amanogawa/column/0002closed/",
+	"title": "自作には密閉がお勧め",
+	"tags": [],
+	"description": "",
+	"content": "自作スピーカーのオススメは？ 初心者向けの話です。\nスピーカーの方式と(主に低音部)には\n バスレフ バックロードホーン ダブルバスレフ 共鳴管 密閉 オープンバッフル ホーン（フロントホーン）  などがあります。\n低音までフロントホーンにするには家から作らないとならないので除外します。\n音質は無視して、とりあえず作り易い順番をに並べると\n オープンバッフル 密閉 バスレフ 共鳴管(構造は簡単だが長くなる) ダブルバスレフ(箱が大きくなる) バックロードホーン(更に大きくなる、構造が複雑)  ちゃんとした構造で振動を抑えようとするとオープンバッフルも大変そうですが とりあえず作るだけなら板にユニットを取り付けるだけなので簡単です。\nでは実際の部屋の中で調整しやすい（セッティング、イコライザなど）のはどれでしょう\n 密閉 バスレフ、ダブルバスレフ バックロード、共鳴管 オープンバッフル  オープンバッフルは部屋やセッティングの影響が大きいので難しいと思います。 あと私の経験ではバスレフのほうが密閉より部屋とセッティングの影響が大きいです。 バスレフの共振と部屋の共振が重なるとボワボワの低音になってしまいます。 逆に部屋の特性で低音が少ない周波数をうまくバスレフで補強できると素晴らしい音が出ます。 密閉は大当たりもない代わりにハズレもない感じです。\nこれらのことを考えるとやはり自作スピーカーの低音部は密閉で測定してイコライザで補正するのが簡単・確実だと考えます。\nただし、オープンバッフルは作ったことがないので挑戦してみたいです。 （意外と調整しやすければ自作スピーカーはオープンバッフルに限る！なんて言い出すかも？）\n2014年11月12日\n"
+},
+{
+	"uri": "https://assi-dangomushi.github.io/amanogawa/gnu-octave/",
+	"title": "オーディオマニアのためのOctave",
+	"tags": [],
+	"description": "",
+	"content": "オーディオマニアのためのOctave GNU Octave Octave は自由ソフトウェアの数値計算ソフト（言語）でMatlabと互換性があります。 ライセンスはGPLで無料で使えます。\nオーディオマニアにとって役に立つ機能が山盛りです。\n"
+},
+{
 	"uri": "https://assi-dangomushi.github.io/amanogawa/column/",
 	"title": "コラム",
 	"tags": [],
@@ -12,13 +47,6 @@
 	"tags": [],
 	"description": "",
 	"content": "天の川オーディオ研究室トップページ 簡単・お手軽にそこそこの高音質を目指してます。\n Linux Raspberry Pi GNU Octave 自作スピーカー  などを使ってマルチアンプシステムを作ります。\n"
-},
-{
-	"uri": "https://assi-dangomushi.github.io/amanogawa/column/why/",
-	"title": "なぜスピーカーを作るのか？",
-	"tags": [],
-	"description": "",
-	"content": "「だから、作れ」と_whyは言った  when you don’t create things, you become defined by your tastes rather than ability. your tastes only narrow \u0026amp; exclude people. so create. – Why the lucky stiff\n  (何も作っていないとき、人は自分の能力よりも好みによって特徴付けられることになる。好みは世界を狭め、他人を排除するばかりだ。だから、作れ)\n  Rails Hub情報局:「だから、作れ」と whyは言った\n プログラマに向けて言った言葉だろうしスピーカーならcreateじゃなくてbuildだろうなんてツッコミもあるでしょうが、ちょっと感動したので引用してみました。\nとりあえず言いたいのは\nまず作れ！話はそれからだ！\nスピーカー工作は簡単なのであれこれ考えている暇があったらとりあえず作ってみることをおすすめします。 キットでも雑誌の付録でも、拾ったユニットでも何でも良いです。 うまく行かなくたって大丈夫。 測定して原因を考え補正すれば大抵の場合にどうにかなります。\nネット上で自作スピーカーだと安くて高音質なものが作れるのか？とかメーカー製に匹敵する音がでるのかなどの質問を見かけることが あります。 はっきり言って愚問です。 全く自作に興味のない人にまで作れとは言いませんが、もし自作スピーカーにちょっとでも興味があるのなら作ってみましょう！\nあのメーカーのスピーカーの音は嫌いだ、このメーカーに限るとか好みを言っていないで\nとにかく作れ！話はそれからだ！(重要なので繰り返してみました)\n2014年11月6日\n"
 },
 {
 	"uri": "https://assi-dangomushi.github.io/amanogawa/categories/",

@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/amanogawa/images/favicon.png" type="image/png">
 
-    <title> :: 天の川オーディオ研究室</title>
+    <title>Raspberry Pi でOctave を使う（2020年5月） :: 天の川オーディオ研究室</title>
 
     
     <link href="/amanogawa/css/nucleus.css?1601881895" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/amanogawa/">
+  <body class="" data-url="/amanogawa/gnu-octave/0002pi/">
     <nav id="sidebar" class="">
 
 
@@ -79,7 +79,7 @@
   
     
     <li data-nav-id="/amanogawa/gnu-octave/" title="オーディオマニアのためのOctave" class="dd-item 
-        
+        parent
         
         
         ">
@@ -126,7 +126,7 @@
  
   
     
-      <li data-nav-id="/amanogawa/gnu-octave/0002pi/" title="Raspberry Pi でOctave を使う（2020年5月）" class="dd-item ">
+      <li data-nav-id="/amanogawa/gnu-octave/0002pi/" title="Raspberry Pi でOctave を使う（2020年5月）" class="dd-item active">
         <a href="/amanogawa/gnu-octave/0002pi/">
         Raspberry Pi でOctave を使う（2020年5月）
         
@@ -243,31 +243,149 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/amanogawa/'></a> > <a href='/amanogawa/gnu-octave/'>オーディオマニアのためのOctave</a> > Raspberry Pi でOctave を使う（2020年5月）
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents"></nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
         <div id="head-tags">
         
         </div>
         
         <div id="body-inner">
           
+            <h1>
+              
+              Raspberry Pi でOctave を使う（2020年5月）
+            </h1>
+          
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span>
 
- 
-<h1 id="天の川オーディオ研究室トップページ">天の川オーディオ研究室トップページ</h1>
-<p>簡単・お手軽にそこそこの高音質を目指してます。</p>
-<ul>
-<li>Linux</li>
-<li>Raspberry Pi</li>
-<li>GNU Octave</li>
-<li>自作スピーカー</li>
-</ul>
-<p>などを使ってマルチアンプシステムを作ります。</p>
+<h1 id="2020年5月7日現在の状況">2020年5月7日現在の状況</h1>
+<p>raspbian buster でGNU Octave （4.4.1）が正常に動作しない。（OpenGLの関係？）
+GUIが乱れる、グラフがプロットできない。計算はできる。</p>
+<p>raspbian buster 公開直後から不具合情報が上がってましたが、いまだに動作した報告を見つけられませんし、実際に動作しません。</p>
+<h1 id="ubuntu-で正常動作した">Ubuntu で正常動作した！</h1>
+<table>
+<thead>
+<tr>
+<th>OS</th>
+<th>グラフプロット</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>raspbian stretch</td>
+<td>○</td>
+<td>Pi4では使えない</td>
+</tr>
+<tr>
+<td>raspbian buster 32bit カーネル</td>
+<td>×</td>
+<td></td>
+</tr>
+<tr>
+<td>raspbian buster 64bit カーネル</td>
+<td>×</td>
+<td></td>
+</tr>
+<tr>
+<td>ubuntu server 19.10.1 32bit</td>
+<td>×</td>
+<td>サポート期限2020年7月</td>
+</tr>
+<tr>
+<td>ubuntu server 19.10.1 64bit</td>
+<td>○</td>
+<td>サポート期限2020年7月</td>
+</tr>
+<tr>
+<td>ubuntu server 20.04 32bit</td>
+<td>×</td>
+<td></td>
+</tr>
+<tr>
+<td>ubuntu server 20.04 64bit</td>
+<td>○</td>
+<td></td>
+</tr>
+<tr>
+<td>ダメなものはデスクトップ環境はもちろん ssh -X でもダメです。</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="ununtu-2004-のインストール">Ununtu 20.04 のインストール</h1>
+<p>公式サイト参照
+<a href="https://ubuntu.com/download/raspberry-pi">https://ubuntu.com/download/raspberry-pi</a></p>
+<p>Octaveのインストール</p>
+<p><code>sudo apt install octave</code></p>
+<p>Ubuntu20.04でインストールされるOctaveのバージョン
+5.2.0</p>
+<h1 id="結論">結論</h1>
+<p>2020年5月7日時点でRaspberry Pi でOctaveを動かす場合には</p>
+<ol>
+<li>Pi0〜Pi3: バージョンが古くても良ければRaspbian Stretch を使用</li>
+<li>Pi3 〜 Pi4: UbuntuServer 20.04(64bit)にデスクトップ環境を入れて使用
+(ssh -X で使用するならデスクトップ環境がなくても可)</li>
+</ol>
+<p>原因や対策については全く調べられていません。
+単なる動作報告です。他のディストリビューションは試してないので情報がある方はコメントください。
+またRaspbianで動作した報告があれば教えてください。</p>
+<p>2020年5月7日</p>
+
+
+<footer class="footline">
 	
-  
+</footer>
+
         
         </div> 
         
@@ -299,8 +417,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -314,6 +430,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -331,6 +450,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -349,6 +469,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -402,8 +525,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/amanogawa/gnu-octave/0001octave/" title="GNU Octaveの歩き方"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/amanogawa/gnu-octave/" title="オーディオマニアのためのOctave" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/amanogawa/column/" title="コラム" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

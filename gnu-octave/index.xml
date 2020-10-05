@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>オーディオマニアのためのOctave on 天の川オーディオ研究室</title>
+    <link>https://assi-dangomushi.github.io/amanogawa/gnu-octave/</link>
+    <description>Recent content in オーディオマニアのためのOctave on 天の川オーディオ研究室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 05 Oct 2020 13:49:41 +0900</lastBuildDate>
+    
+	<atom:link href="https://assi-dangomushi.github.io/amanogawa/gnu-octave/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GNU Octaveの歩き方</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0001octave/</link>
+      <pubDate>Mon, 05 Oct 2020 14:00:32 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0001octave/</guid>
+      <description>GNU Octaveの歩き方 GNU Octave をこれから始める人に役に立ちそうなことをまとめました。具体的な文法などは他のサイト、記事にあたってください。
+GNU Octave とは GNU Octave はフリーの数値計算ソフト（言語）でMATLABと互換性が（ある程度）あります。私はオーディオの測定・解析・フィルタ設計などに使っています。 初心者にも分かりやすく、グラフなども簡単に描けます。
+GNU Octave　公式サイト https://www.gnu.org/software/octave/
+Octave のインストール windows 公式サイトのダウンロードページからインストーラーをダウンロードします。
+mac Homebrewでインストールできるようです（macは持ってないので&amp;hellip;）
+Linux ディストリビューションのパッケージマネージャーを使ってインストールします。flatpakを使う方法も有りますが、ディストリビューションのパッケージマネージャを使うほうが面倒が少ないです。 Ubuntuならコマンドラインで
+sudo apt install octave Raspberry Piに関する注意 標準のRaspbian Busterでグラフが描けない不具合が有ります。Ubuntu64bitなら大丈夫です。 Raspberry Pi でOctave を使う
+Octaveの起動 コマンドラインで
+# GUIで起動 octave --gui # CUIで起動 octave --no-gui オプションを指定しなかった場合にどちらが起動するかはバージョンにより違います。
+パッケージ Octave は色々なパッケージがあって機能拡張することができます。 パッケージの公式ページ https://octave.sourceforge.io/
+パッケージインストール Windowsでは基本的なパッケージはインストール済みです。 Ubuntu の場合にはOctave内からpkgコマンドでインストールするよりもaptを使ってインストールしたほうが楽です。
+# signal packageをインストールする場合（Ubuntu,Debian） sudo apt install octave-signal インストールされているパッケージを表示するにはOctaveのコマンドラインで
+octave&amp;gt; pkg list パッケージのロード パッケージはインストールしただけでは使えません。ロードする必要が有ります。 signal package をロードする場合、Octaveのコマンドラインで</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi でOctave を使う（2020年5月）</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0002pi/</link>
+      <pubDate>Mon, 05 Oct 2020 14:00:50 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0002pi/</guid>
+      <description>2020年5月7日現在の状況 raspbian buster でGNU Octave （4.4.1）が正常に動作しない。（OpenGLの関係？） GUIが乱れる、グラフがプロットできない。計算はできる。
+raspbian buster 公開直後から不具合情報が上がってましたが、いまだに動作した報告を見つけられませんし、実際に動作しません。
+Ubuntu で正常動作した！    OS グラフプロット 備考     raspbian stretch ○ Pi4では使えない   raspbian buster 32bit カーネル ×    raspbian buster 64bit カーネル ×    ubuntu server 19.10.1 32bit × サポート期限2020年7月   ubuntu server 19.10.1 64bit ○ サポート期限2020年7月   ubuntu server 20.04 32bit ×    ubuntu server 20.</description>
+    </item>
+    
+  </channel>
+</rss>

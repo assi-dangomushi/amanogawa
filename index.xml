@@ -6,17 +6,38 @@
     <description>Recent content on 天の川オーディオ研究室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 04 Oct 2020 23:10:02 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2020 14:00:50 +0900</lastBuildDate>
     
 	<atom:link href="https://assi-dangomushi.github.io/amanogawa/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>GNU Octaveの歩き方</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0001octave/</link>
+      <pubDate>Mon, 05 Oct 2020 14:00:32 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0001octave/</guid>
+      <description>GNU Octaveの歩き方 GNU Octave をこれから始める人に役に立ちそうなことをまとめました。具体的な文法などは他のサイト、記事にあたってください。
+GNU Octave とは GNU Octave はフリーの数値計算ソフト（言語）でMATLABと互換性が（ある程度）あります。私はオーディオの測定・解析・フィルタ設計などに使っています。 初心者にも分かりやすく、グラフなども簡単に描けます。
+GNU Octave　公式サイト https://www.gnu.org/software/octave/
+Octave のインストール windows 公式サイトのダウンロードページからインストーラーをダウンロードします。
+mac Homebrewでインストールできるようです（macは持ってないので&amp;hellip;）
+Linux ディストリビューションのパッケージマネージャーを使ってインストールします。flatpakを使う方法も有りますが、ディストリビューションのパッケージマネージャを使うほうが面倒が少ないです。 Ubuntuならコマンドラインで
+sudo apt install octave Raspberry Piに関する注意 標準のRaspbian Busterでグラフが描けない不具合が有ります。Ubuntu64bitなら大丈夫です。 Raspberry Pi でOctave を使う
+Octaveの起動 コマンドラインで
+# GUIで起動 octave --gui # CUIで起動 octave --no-gui オプションを指定しなかった場合にどちらが起動するかはバージョンにより違います。
+パッケージ Octave は色々なパッケージがあって機能拡張することができます。 パッケージの公式ページ https://octave.sourceforge.io/
+パッケージインストール Windowsでは基本的なパッケージはインストール済みです。 Ubuntu の場合にはOctave内からpkgコマンドでインストールするよりもaptを使ってインストールしたほうが楽です。
+# signal packageをインストールする場合（Ubuntu,Debian） sudo apt install octave-signal インストールされているパッケージを表示するにはOctaveのコマンドラインで
+octave&amp;gt; pkg list パッケージのロード パッケージはインストールしただけでは使えません。ロードする必要が有ります。 signal package をロードする場合、Octaveのコマンドラインで</description>
+    </item>
+    
+    <item>
       <title>なぜスピーカーを作るのか？</title>
-      <link>https://assi-dangomushi.github.io/amanogawa/column/why/</link>
+      <link>https://assi-dangomushi.github.io/amanogawa/column/0001why/</link>
       <pubDate>Sun, 04 Oct 2020 23:10:02 +0900</pubDate>
       
-      <guid>https://assi-dangomushi.github.io/amanogawa/column/why/</guid>
+      <guid>https://assi-dangomushi.github.io/amanogawa/column/0001why/</guid>
       <description>「だから、作れ」と_whyは言った  when you don’t create things, you become defined by your tastes rather than ability. your tastes only narrow &amp;amp; exclude people. so create. – Why the lucky stiff
   (何も作っていないとき、人は自分の能力よりも好みによって特徴付けられることになる。好みは世界を狭め、他人を排除するばかりだ。だから、作れ)
   Rails Hub情報局:「だから、作れ」と whyは言った
@@ -28,6 +49,36 @@
 あのメーカーのスピーカーの音は嫌いだ、このメーカーに限るとか好みを言っていないで
 とにかく作れ！話はそれからだ！(重要なので繰り返してみました)
 2014年11月6日</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi でOctave を使う（2020年5月）</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0002pi/</link>
+      <pubDate>Mon, 05 Oct 2020 14:00:50 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0002pi/</guid>
+      <description>2020年5月7日現在の状況 raspbian buster でGNU Octave （4.4.1）が正常に動作しない。（OpenGLの関係？） GUIが乱れる、グラフがプロットできない。計算はできる。
+raspbian buster 公開直後から不具合情報が上がってましたが、いまだに動作した報告を見つけられませんし、実際に動作しません。
+Ubuntu で正常動作した！    OS グラフプロット 備考     raspbian stretch ○ Pi4では使えない   raspbian buster 32bit カーネル ×    raspbian buster 64bit カーネル ×    ubuntu server 19.10.1 32bit × サポート期限2020年7月   ubuntu server 19.10.1 64bit ○ サポート期限2020年7月   ubuntu server 20.04 32bit ×    ubuntu server 20.</description>
+    </item>
+    
+    <item>
+      <title>自作には密閉がお勧め</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/column/0002closed/</link>
+      <pubDate>Mon, 05 Oct 2020 13:24:30 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/column/0002closed/</guid>
+      <description>自作スピーカーのオススメは？ 初心者向けの話です。
+スピーカーの方式と(主に低音部)には
+ バスレフ バックロードホーン ダブルバスレフ 共鳴管 密閉 オープンバッフル ホーン（フロントホーン）  などがあります。
+低音までフロントホーンにするには家から作らないとならないので除外します。
+音質は無視して、とりあえず作り易い順番をに並べると
+ オープンバッフル 密閉 バスレフ 共鳴管(構造は簡単だが長くなる) ダブルバスレフ(箱が大きくなる) バックロードホーン(更に大きくなる、構造が複雑)  ちゃんとした構造で振動を抑えようとするとオープンバッフルも大変そうですが とりあえず作るだけなら板にユニットを取り付けるだけなので簡単です。
+では実際の部屋の中で調整しやすい（セッティング、イコライザなど）のはどれでしょう
+ 密閉 バスレフ、ダブルバスレフ バックロード、共鳴管 オープンバッフル  オープンバッフルは部屋やセッティングの影響が大きいので難しいと思います。 あと私の経験ではバスレフのほうが密閉より部屋とセッティングの影響が大きいです。 バスレフの共振と部屋の共振が重なるとボワボワの低音になってしまいます。 逆に部屋の特性で低音が少ない周波数をうまくバスレフで補強できると素晴らしい音が出ます。 密閉は大当たりもない代わりにハズレもない感じです。
+これらのことを考えるとやはり自作スピーカーの低音部は密閉で測定してイコライザで補正するのが簡単・確実だと考えます。
+ただし、オープンバッフルは作ったことがないので挑戦してみたいです。 （意外と調整しやすければ自作スピーカーはオープンバッフルに限る！なんて言い出すかも？）
+2014年11月12日</description>
     </item>
     
   </channel>

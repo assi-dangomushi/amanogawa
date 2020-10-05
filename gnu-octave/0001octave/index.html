@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/amanogawa/images/favicon.png" type="image/png">
 
-    <title>Tags :: 天の川オーディオ研究室</title>
+    <title>GNU Octaveの歩き方 :: 天の川オーディオ研究室</title>
 
     
     <link href="/amanogawa/css/nucleus.css?1601881895" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/amanogawa/tags/">
+  <body class="" data-url="/amanogawa/gnu-octave/0001octave/">
     <nav id="sidebar" class="">
 
 
@@ -79,7 +79,7 @@
   
     
     <li data-nav-id="/amanogawa/gnu-octave/" title="オーディオマニアのためのOctave" class="dd-item 
-        
+        parent
         
         
         ">
@@ -105,7 +105,7 @@
  
   
     
-      <li data-nav-id="/amanogawa/gnu-octave/0001octave/" title="GNU Octaveの歩き方" class="dd-item ">
+      <li data-nav-id="/amanogawa/gnu-octave/0001octave/" title="GNU Octaveの歩き方" class="dd-item active">
         <a href="/amanogawa/gnu-octave/0001octave/">
         GNU Octaveの歩き方
         
@@ -266,7 +266,13 @@
             
           
           
-            <a href='/amanogawa/'></a> > Tags
+            
+            
+          
+          
+            <a href='/amanogawa/'></a> > <a href='/amanogawa/gnu-octave/'>オーディオマニアのためのOctave</a> > GNU Octaveの歩き方
+          
+        
           
         
           
@@ -277,7 +283,19 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#gnu-octaveの歩き方">GNU Octaveの歩き方</a></li>
+        <li><a href="#gnu-octave-とは">GNU Octave とは</a></li>
+        <li><a href="#octave-のインストール">Octave のインストール</a></li>
+        <li><a href="#octaveの起動">Octaveの起動</a></li>
+        <li><a href="#gnu-octave-の情報">GNU Octave の情報</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -293,22 +311,96 @@
           
             <h1>
               
-              Tags
+              GNU Octaveの歩き方
             </h1>
           
 
         
 
 
+<h3 id="gnu-octaveの歩き方">GNU Octaveの歩き方</h3>
+<p>GNU Octave をこれから始める人に役に立ちそうなことをまとめました。具体的な文法などは他のサイト、記事にあたってください。</p>
+<h3 id="gnu-octave-とは">GNU Octave とは</h3>
+<p>GNU Octave はフリーの数値計算ソフト（言語）でMATLABと互換性が（ある程度）あります。私はオーディオの測定・解析・フィルタ設計などに使っています。
+初心者にも分かりやすく、グラフなども簡単に描けます。</p>
+<h4 id="gnu-octave公式サイト">GNU Octave　公式サイト</h4>
+<p><a href="https://www.gnu.org/software/octave/">https://www.gnu.org/software/octave/</a></p>
+<h3 id="octave-のインストール">Octave のインストール</h3>
+<h4 id="windows">windows</h4>
+<p><a href="https://www.gnu.org/software/octave/">公式サイト</a>のダウンロードページからインストーラーをダウンロードします。</p>
+<h4 id="mac">mac</h4>
+<p>Homebrewでインストールできるようです（macは持ってないので&hellip;）</p>
+<h4 id="linux">Linux</h4>
+<p>ディストリビューションのパッケージマネージャーを使ってインストールします。flatpakを使う方法も有りますが、ディストリビューションのパッケージマネージャを使うほうが面倒が少ないです。
+Ubuntuならコマンドラインで</p>
+<pre><code>sudo apt install octave
+</code></pre><h4 id="raspberry-piに関する注意">Raspberry Piに関する注意</h4>
+<p>標準のRaspbian Busterでグラフが描けない不具合が有ります。Ubuntu64bitなら大丈夫です。
+<a href="https://qiita.com/assi-dangomushi/items/0be56e1376840283ca61">Raspberry Pi でOctave を使う</a></p>
+<h3 id="octaveの起動">Octaveの起動</h3>
+<p>コマンドラインで</p>
+<pre><code># GUIで起動
+octave --gui
+
+# CUIで起動 
+octave --no-gui
+</code></pre><p>オプションを指定しなかった場合にどちらが起動するかはバージョンにより違います。</p>
+<h4 id="パッケージ">パッケージ</h4>
+<p>Octave は色々なパッケージがあって機能拡張することができます。
+パッケージの公式ページ
+<a href="https://octave.sourceforge.io/">https://octave.sourceforge.io/</a></p>
+<h4 id="パッケージインストール">パッケージインストール</h4>
+<p>Windowsでは基本的なパッケージはインストール済みです。
+Ubuntu の場合にはOctave内からpkgコマンドでインストールするよりもaptを使ってインストールしたほうが楽です。</p>
+<pre><code># signal packageをインストールする場合（Ubuntu,Debian）
+sudo apt install octave-signal
+</code></pre><p>インストールされているパッケージを表示するにはOctaveのコマンドラインで</p>
+<pre><code>octave&gt; pkg list
+</code></pre><h4 id="パッケージのロード">パッケージのロード</h4>
+<p>パッケージはインストールしただけでは使えません。ロードする必要が有ります。
+signal package をロードする場合、Octaveのコマンドラインで</p>
+<pre><code>octave&gt; pkg load signal
+</code></pre><p>いつも使うパッケージは ~/.octaverc などに記入してしまいましょう。</p>
+<h3 id="gnu-octave-の情報">GNU Octave の情報</h3>
+<p>Octaveの情報をどこで得るか、簡単にまとめました。</p>
+<h4 id="公式サイト">公式サイト</h4>
+<p>なにはともあれ公式サイトのDocsページ
+オフラインで見たければ<a href="https://octave.org/doc/">PDFファイル</a>もあります。
+同じものはGUI起動のoctaveのドキュメントタブ
+CUI起動のoctaveの場合はコマンドラインで</p>
+<pre><code>octave&gt; doc
+</code></pre><p>で見ることができます。CUIの場合にはinfoで表示されるのでキー操作に慣れが必要です。</p>
+<h4 id="関数演算子キーワードの情報">関数（演算子・キーワード）の情報</h4>
+<p>octaveコマンドラインでhelpコマンドを使います。
+help の後に関数名または演算子、キーワードを入力します。</p>
+<pre><code>octave&gt; help 関数名
+</code></pre><p>関数ファイルのコメントが表示されます。自作関数にもコメントで使用法の説明を入れてhelpコマンドで表示できるようにしておきましょう。</p>
+<p>演算子を表示するにはOctaveのコマンドラインで</p>
+<pre><code>octave&gt; help .
+</code></pre><p>演算子・キーワード・関数をすべて表示する</p>
+<pre><code>octave&gt; help --list
+</code></pre><p>この場合でもロードしていないパッケージ内の関数は表示されません。</p>
+<p>パッケージについては
+<a href="https://octave.sourceforge.io/">https://octave.sourceforge.io/</a>
+を参照してください。</p>
+<h4 id="matlabのサイト">MATLABのサイト</h4>
+<p>Octave はMATLABと互換性があるのでMatlabのサイトが参考になります。
+日本語サイト
+<a href="https://jp.mathworks.com/products/matlab.html?s_tid=hp_products_matlab">https://jp.mathworks.com/products/matlab.html?s_tid=hp_products_matlab</a></p>
+<p>中にはoctaveの公式サイトの説明が不完全で、MATLABのサイトを見ないと詳しい使い方がわからない関数もあったりします。
+ただし、MATLABにはあるのにOctaveにはない関数も多くあるので注意してください。</p>
+<h4 id="octave入門">Octave入門</h4>
+<p>&ldquo;octave入門&quot;あたりでググれば色々なサイトがヒットします。あちこちの大学の講義資料なんかも有ります。
+古い情報が多いですが、v2.xの頃と基本的な文法は変わってないのでたいてい大丈夫です。</p>
+<h4 id="octave-のバージョンについて">Octave のバージョンについて</h4>
+<p>最新版が良いとは限りません。
+v5.0に上がった直後はsignalパッケージのバージョンアップが間に合わずに使えないなんてこともありました。
+またUbuntuのLTSは2年に一度でその間、基本的にOctaveのバージョンも変わりません。Octaveのバグフィックスは同じバージョンではなく、次のバージョンになるので（頻繁にバージョンが上がる）うっかりするとバグ入りで不安定なバージョンを使い続けることになります。
+Ubuntu20.04に入る5.2.0はそこそこ安定しているようなので、一安心です。</p>
+<p>2020年5月25日</p>
 
 
-
-<ul>
-	
-</ul>
-
-
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
@@ -343,8 +435,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -358,6 +448,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -374,6 +465,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -446,8 +540,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/amanogawa/gnu-octave/" title="オーディオマニアのためのOctave"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/amanogawa/gnu-octave/" title="オーディオマニアのためのOctave" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/amanogawa/gnu-octave/0002pi/" title="Raspberry Pi でOctave を使う（2020年5月）" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -477,3 +573,4 @@
 
   </body>
 </html>
+
