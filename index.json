@@ -29,7 +29,7 @@
 },
 {
 	"uri": "https://assi-dangomushi.github.io/amanogawa/gnu-octave/",
-	"title": "オーディオマニアのためのOctave",
+	"title": "Octave",
 	"tags": [],
 	"description": "",
 	"content": "オーディオマニアのためのOctave GNU Octave Octave は自由ソフトウェアの数値計算ソフト（言語）でMatlabと互換性があります。 ライセンスはGPLで無料で使えます。\nオーディオマニアにとって役に立つ機能が山盛りです。\n"
@@ -46,7 +46,7 @@
 	"title": "",
 	"tags": [],
 	"description": "",
-	"content": "天の川オーディオ研究室トップページ 簡単・お手軽にそこそこの高音質を目指してます。\n Linux Raspberry Pi GNU Octave 自作スピーカー  などを使ってマルチアンプシステムを作ります。\n"
+	"content": "天の川オーディオ研究室トップページ 簡単・お手軽にそこそこの高音質を自作スピーカーを使って実現する！ そのためにマルチアンプシステムを作ってます。\nRaspberry Pi の HDMIからLPCM 8ch（96kHz 24bit）を出力するプログラム hdmi_play 標準入力から32bit8chの音声データを受け取りHDMIから出力します。\n3way (+Subwoofer) 用 畳み込みソフト amafir 標準入力から32bit2chの音声データを受け取り、firフィルタを畳み込んで32bit8chの音声データを標準出力に流します。 標準ではチャンネルごとに16384tapの畳み込みを行います。\nhdmi_play と amafir を組み合われることにより、 RaspberryPi（2B,3B,4B）+ AVアンプを利用して極めて安価に高性能なマルチアンプシステムが実現します。\n以下作成中\nオーディオマニアのためのGNU Octave入門 左のメニューのOctaveへ\n役に立たないコラム 異論もあるでしょうが、私の考えを書いていきます 左のメニューのコラムへ\n旧サイト 最初の天の川オーディオ研究室の内容です 古いですが、徐々に移していきます。 左のメニューの旧サイトへ\n"
 },
 {
 	"uri": "https://assi-dangomushi.github.io/amanogawa/categories/",

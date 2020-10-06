@@ -12,19 +12,19 @@
     <title> :: 天の川オーディオ研究室</title>
 
     
-    <link href="/amanogawa/css/nucleus.css?1601945120" rel="stylesheet">
-    <link href="/amanogawa/css/fontawesome-all.min.css?1601945120" rel="stylesheet">
-    <link href="/amanogawa/css/hybrid.css?1601945120" rel="stylesheet">
-    <link href="/amanogawa/css/featherlight.min.css?1601945120" rel="stylesheet">
-    <link href="/amanogawa/css/perfect-scrollbar.min.css?1601945120" rel="stylesheet">
-    <link href="/amanogawa/css/auto-complete.css?1601945120" rel="stylesheet">
-    <link href="/amanogawa/css/atom-one-dark-reasonable.css?1601945120" rel="stylesheet">
-    <link href="/amanogawa/css/theme.css?1601945120" rel="stylesheet">
-    <link href="/amanogawa/css/hugo-theme.css?1601945120" rel="stylesheet">
+    <link href="/amanogawa/css/nucleus.css?1601960537" rel="stylesheet">
+    <link href="/amanogawa/css/fontawesome-all.min.css?1601960537" rel="stylesheet">
+    <link href="/amanogawa/css/hybrid.css?1601960537" rel="stylesheet">
+    <link href="/amanogawa/css/featherlight.min.css?1601960537" rel="stylesheet">
+    <link href="/amanogawa/css/perfect-scrollbar.min.css?1601960537" rel="stylesheet">
+    <link href="/amanogawa/css/auto-complete.css?1601960537" rel="stylesheet">
+    <link href="/amanogawa/css/atom-one-dark-reasonable.css?1601960537" rel="stylesheet">
+    <link href="/amanogawa/css/theme.css?1601960537" rel="stylesheet">
+    <link href="/amanogawa/css/hugo-theme.css?1601960537" rel="stylesheet">
     
-    <link href="/amanogawa/css/foo.css?1601945120" rel="stylesheet"><link href="/amanogawa/css/bar.css?1601945120" rel="stylesheet">
+    <link href="/amanogawa/css/foo.css?1601960537" rel="stylesheet"><link href="/amanogawa/css/bar.css?1601960537" rel="stylesheet">
 
-    <script src="/amanogawa/js/jquery-3.3.1.min.js?1601945120"></script>
+    <script src="/amanogawa/js/jquery-3.3.1.min.js?1601960537"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -53,14 +53,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/amanogawa/js/lunr.min.js?1601945120"></script>
-<script type="text/javascript" src="/amanogawa/js/auto-complete.js?1601945120"></script>
+<script type="text/javascript" src="/amanogawa/js/lunr.min.js?1601960537"></script>
+<script type="text/javascript" src="/amanogawa/js/auto-complete.js?1601960537"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/assi-dangomushi.github.io\/amanogawa\/";
     
 </script>
-<script type="text/javascript" src="/amanogawa/js/search.js?1601945120"></script>
+<script type="text/javascript" src="/amanogawa/js/search.js?1601960537"></script>
 
     
   </div>
@@ -78,13 +78,13 @@
  
   
     
-    <li data-nav-id="/amanogawa/gnu-octave/" title="オーディオマニアのためのOctave" class="dd-item 
+    <li data-nav-id="/amanogawa/gnu-octave/" title="Octave" class="dd-item 
         
         
         
         ">
       <a href="/amanogawa/gnu-octave/">
-          オーディオマニアのためのOctave
+          Octave
           
       </a>
       
@@ -258,14 +258,27 @@
 
  
 <h1 id="天の川オーディオ研究室トップページ">天の川オーディオ研究室トップページ</h1>
-<p>簡単・お手軽にそこそこの高音質を目指してます。</p>
-<ul>
-<li>Linux</li>
-<li>Raspberry Pi</li>
-<li>GNU Octave</li>
-<li>自作スピーカー</li>
-</ul>
-<p>などを使ってマルチアンプシステムを作ります。</p>
+<p>簡単・お手軽にそこそこの高音質を自作スピーカーを使って実現する！
+そのためにマルチアンプシステムを作ってます。</p>
+<h3 id="raspberry-pi-の-hdmiからlpcm-8ch96khz-24bitを出力するプログラム">Raspberry Pi の HDMIからLPCM 8ch（96kHz 24bit）を出力するプログラム</h3>
+<h4 id="hdmi_playhttpsgithubcomassi-dangomushihdmi_play"><a href="https://github.com/assi-dangomushi/hdmi_play">hdmi_play</a></h4>
+<p>標準入力から32bit8chの音声データを受け取りHDMIから出力します。</p>
+<h3 id="3way-subwoofer-用-畳み込みソフト">3way (+Subwoofer) 用 畳み込みソフト</h3>
+<h4 id="amafirhttpsgithubcomassi-dangomushiamafir"><a href="https://github.com/assi-dangomushi/amafir">amafir</a></h4>
+<p>標準入力から32bit2chの音声データを受け取り、firフィルタを畳み込んで32bit8chの音声データを標準出力に流します。
+標準ではチャンネルごとに16384tapの畳み込みを行います。</p>
+<p>hdmi_play と amafir を組み合われることにより、
+RaspberryPi（2B,3B,4B）+ AVアンプを利用して極めて安価に高性能なマルチアンプシステムが実現します。</p>
+<p>以下作成中</p>
+<h3 id="オーディオマニアのためのgnu-octave入門">オーディオマニアのためのGNU Octave入門</h3>
+<p>左のメニューの<strong>Octave</strong>へ</p>
+<h3 id="役に立たないコラム">役に立たないコラム</h3>
+<p>異論もあるでしょうが、私の考えを書いていきます
+左のメニューの<strong>コラム</strong>へ</p>
+<h3 id="旧サイト">旧サイト</h3>
+<p>最初の天の川オーディオ研究室の内容です
+古いですが、徐々に移していきます。
+左のメニューの<strong>旧サイト</strong>へ</p>
 	
   
         
@@ -403,7 +416,7 @@
 	 
 		
 		
-			<a class="nav nav-next" href="/amanogawa/gnu-octave/" title="オーディオマニアのためのOctave" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/amanogawa/gnu-octave/" title="Octave" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -413,19 +426,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/amanogawa/js/clipboard.min.js?1601945120"></script>
-    <script src="/amanogawa/js/perfect-scrollbar.min.js?1601945120"></script>
-    <script src="/amanogawa/js/perfect-scrollbar.jquery.min.js?1601945120"></script>
-    <script src="/amanogawa/js/jquery.sticky.js?1601945120"></script>
-    <script src="/amanogawa/js/featherlight.min.js?1601945120"></script>
-    <script src="/amanogawa/js/highlight.pack.js?1601945120"></script>
+    <script src="/amanogawa/js/clipboard.min.js?1601960537"></script>
+    <script src="/amanogawa/js/perfect-scrollbar.min.js?1601960537"></script>
+    <script src="/amanogawa/js/perfect-scrollbar.jquery.min.js?1601960537"></script>
+    <script src="/amanogawa/js/jquery.sticky.js?1601960537"></script>
+    <script src="/amanogawa/js/featherlight.min.js?1601960537"></script>
+    <script src="/amanogawa/js/highlight.pack.js?1601960537"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/amanogawa/js/modernizr.custom-3.6.0.js?1601945120"></script>
-    <script src="/amanogawa/js/learn.js?1601945120"></script>
-    <script src="/amanogawa/js/hugo-learn.js?1601945120"></script>
+    <script src="/amanogawa/js/modernizr.custom-3.6.0.js?1601960537"></script>
+    <script src="/amanogawa/js/learn.js?1601960537"></script>
+    <script src="/amanogawa/js/hugo-learn.js?1601960537"></script>
     
         
-            <script src="/amanogawa/mermaid/mermaid.js?1601945120"></script>
+            <script src="/amanogawa/mermaid/mermaid.js?1601960537"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
