@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B 測定編 on 天の川オーディオ研究室</title>
+    <link>https://assi-dangomushi.github.io/amanogawa/old_site/b_%E6%B8%AC%E5%AE%9A%E7%B7%A8/</link>
+    <description>Recent content in B 測定編 on 天の川オーディオ研究室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 16 Jun 2020 19:50:08 +0900</lastBuildDate>
+    
+	<atom:link href="https://assi-dangomushi.github.io/amanogawa/old_site/b_%E6%B8%AC%E5%AE%9A%E7%B7%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>B01 測定をしよう！</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/b_%E6%B8%AC%E5%AE%9A%E7%B7%A8/b01%E6%B8%AC%E5%AE%9A%E3%82%92%E3%81%97%E3%82%88%E3%81%86/</link>
+      <pubDate>Fri, 21 Dec 2012 06:09:18 +0000</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/b_%E6%B8%AC%E5%AE%9A%E7%B7%A8/b01%E6%B8%AC%E5%AE%9A%E3%82%92%E3%81%97%E3%82%88%E3%81%86/</guid>
+      <description>室長：今回から測定編だ。インパルスレスポンスを測定してその結果を利用してフィルタを設計するのだ。
+助手：測定なしではダメですか？
+室長：たしかにベテランの中には測定なしで聴覚だけで素晴らしい音に調整できる達人もおる。だがそんな能力がない一般人は測定無しでマルチアンプの調整は難しいのだ。そこで測定だが、厳密な測定ができなくても調整の参考になるのでマルチアンプではなくてもぜひ測定をしてみて欲しいぞ。
+助手：測定法には色々ありますが、どんな方法を使いますか？
+室長：この研究室ではメリットの多いインパルスレスポンスの測定を行うぞ。
+助手：わかりました。ARTAとかを使っていくんですね。早速Windowsマシンを調達してインストールしましょう。
+室長：ちょっとまった。確かにARTAは優れた測定ソフトだ。高性能で使い勝手もよい。値段もそんなに高くない。だが今回はLinuxでフリーソフトで自分で計算するぞ。
+助手：え～。そこまでこの研究室の予算は足りないのですか？それにインパルスレスポンスの測定って難しく無いですか？専用の測定ソフト無しでできるんですか？
+室長：そうではない。ARTAは確かに優れていて測定をしたい人には自信を持っておすすめできる。だが今回はbrutefirによるマルチアンプのための測定をしたいのだ。このためにはbrutefirをインストールしたlinuxマシンと測定用のWindowsマシンの2台が必要になり煩雑だ。linux上で測定できればパソコン1台ですむので楽ちんじゃ。
+助手：結局予算の問題じゃないですか？
+室長：それだけでなく自分でインパルスレスポンスを測定すればデジタル音響処理についての理解も深まるというものだ。それに計算はoctaveがやってくれる。では次回は必要なソフトをインストールして測定の準備をするぞ。</description>
+    </item>
+    
+    <item>
+      <title>B02 インパルスレスポンス</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/b_%E6%B8%AC%E5%AE%9A%E7%B7%A8/b02%E3%82%A4%E3%83%B3%E3%83%91%E3%83%AB%E3%82%B9%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B9/</link>
+      <pubDate>Sat, 22 Dec 2012 11:24:03 +0000</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/b_%E6%B8%AC%E5%AE%9A%E7%B7%A8/b02%E3%82%A4%E3%83%B3%E3%83%91%E3%83%AB%E3%82%B9%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B9/</guid>
+      <description>室長：インパルスとは幅がゼロですべての周波数を含んだ信号のことじゃ。実際にはサンプリング周波数に応じた幅があるので高域に限界はある。この信号を再生して録音すればインパルスレスポンスが記録できる。インパルスの波形はほれ、こんな感じじゃ。
+a=[zeros(4096,1)];a(2047)=1;plot(a);助手：一瞬だけですね。っていうか値が１つだけ１であとはゼロなだけじゃないですか。これですべての周波数成分が含まれているのですか？
+室長：その通りじゃ。これを波形として含まれる周波数成分をみるとこうなる。フィルタとしてみて周波数特性を見るのと意味は同じじゃ。「入力信号が何ヘルツであれ、そのまま通す＝すべての周波数が含まれている」と言うわけじゃ。
+filterplot(a,44100);axis([0.1 22050 -10 5]);ただしエネルギーとしてはとても小さいので測定結果のS/Nがとても悪い。そこで時間軸で引き伸ばして測定する。その結果を逆のフィルタで畳み込めばインパルスに戻るわけじゃ。
+助手：わかったようなわからないような。
+室長：まあ要はインパルスレスポンスを測定するにはタイムストレッチパルス（ログスイープ）信号のwavファイルを用意して再生し、それを録音して逆特性のフィルタで元に戻せばOKなのだ。信号をつくるのに今回は都合によりdrcに含まれているglsweepというソフトを使うぞ。
+助手：drcってなんですか？
+室長：Digital Room Correctionの略で、firフィルタによってリスニングルームの特性を補正しようというものじゃ。とても興味深いが残念ながらワシは使ったことが無い。
+助手：このソフトもbrutefirと同様に日本語の情報があまりありませんね。
+室長：このdrcのなかに含まれている測定用信号作成ソフト”glsweep”を使わせてもらう。いつも通りインストールするぞ。コマンドラインで
+sudo apt-get install drc これでglsweepもインストールされる。説明はdrcもwebページと’man drc’で見てくれ。 またglsweepと入力するだけでもhelpが表示されるぞ。</description>
+    </item>
+    
+  </channel>
+</rss>

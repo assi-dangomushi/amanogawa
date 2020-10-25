@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A デジタルフィルタ編 on 天の川オーディオ研究室</title>
+    <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/</link>
+    <description>Recent content in A デジタルフィルタ編 on 天の川オーディオ研究室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 16 Jun 2020 19:44:26 +0900</lastBuildDate>
+    
+	<atom:link href="https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A01デジタルオーディオの勧め</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a01%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%81%AE%E5%8B%A7%E3%82%81/</link>
+      <pubDate>Tue, 04 Dec 2012 20:04:29 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a01%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%81%AE%E5%8B%A7%E3%82%81/</guid>
+      <description>助手：室長！天の川オーディオラボのＷｅｂページの第一回ですよ。全国の読者に向かってガツンとなにかハッタリをかましてくださいよ！
+室長：そうはいっても気が進まぬのだよ。実は前にもWebページを公開した事があったが、あまり評価が得られずに投げ出してしまったことがあるからのう。
+助手：室長は飽きっぽいですからね。でも今回はこうやって私も手伝って談話形式にしたじゃありませんか。この方が続けやすいし読者の反応も良いはずですよ！
+室長：そういうものかのう。わしとしては必要な内容が簡潔にまとまっていた方がよいと思うのだが。どうせならイラストなんかがあった方が良いのだが贅沢かの。まあよい。それではまずは初回ということで、デジタルオーディオの勧めというタイトルでどうじゃ？
+助手：変な事を言いますね。いまどきオーディオといえばデジタルがあたりまえでしょう？わざわざそんなこと言う必要もないでしょ。
+室長：いや、そんなことはないぞ。世の中にはデジタルをなるべくそのままアナログに変換して、なるべくアナログで処理した方が良いと思ってる人がおるのじゃよ。オーディオマニアにはそういう人の方がが多いくらいじゃ。
+助手：そうなんですか？
+室長：うむ。たとえば「ビットパーフェクト」という言葉を聞いたことがあるかな。
+助手：もちろんありますよ。ｗｉｎｄｏｗｓのミキサーやイコライザで音質劣化するので、音源のデータを1bitも変えずにそのまま出力した方が音が良いんですよね。
+室長：ばかもの！　そんな認識だからデジタルオーディオが誤解されるのじゃ!
+助手：ええっ？　何か違いましたか?
+室長：ビットパーフェクトとは意図しないデータの変化（劣化）を避けて、意図したとおりの音を１ｂｉｔも違わずに再生することなのじゃ。この違いが解るか？
+助手：えーと、音源のデータをそのままではなくて意図したとおりの音をそのままということは…解った！意図しないデータの変化は許されないけど、意図したデータの変化はあっても良いということですね！
+室長：そのとおりじゃ。この研究室の方針はデジタルで処理出来ることはなるべくデジタルで行うといいうことじゃ。実際、音楽の製作では音のデジタル処理は当たり前のように行われておる。これを再生側で否定しても意味がないじゃろ？
+助手：具体的にはどんなことをデジタル処理するのですか？
+室長：うむ。再生ソフト、サンプリングレート変換、チャンネルデバイダ、イコライザ、あと測定システムをデジタルで構築することになる。
+助手：でもチャンデバとかイコライザとかアナログでやったり、パッシブネットワークでやった方が音が良いという意見もありますよ？
+室長：もちろんデジタルでやったから音が良いと単純に言えるわけではないぞ。ただ当研究室はデジタルの可能性を追求し、低コストのDIYの手段としてデジタル技術を活用していくというポリシーなわけだ。べつにアナログを否定するわけでは無いので気をつけてくれ。ただでさえ少ないオーディオマニア間で無用な争いを起こしたくないからの。
+助手：大人な発言ですね。では次回から具体的なデジタル技術の解説をお願いしますよ？
+室長：泥舟に乗ったつもりでまかせなさい！</description>
+    </item>
+    
+    <item>
+      <title>A02 デジタルフィルタとは？</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a02-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%81%A8%E3%81%AF/</link>
+      <pubDate>Wed, 05 Dec 2012 21:00:04 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a02-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%81%A8%E3%81%AF/</guid>
+      <description>助手：天の川オーディオラボのWebページの第2回目です。それでは今回はデジタルフィルタと言うことでお願いします。
+室長：フィルタとは一定の規則に基づいてデータを処理するプログラムや機器のことじゃ。当研究室では当然デジタルオーディオ信号を処理するプログラムのことを意味する。詳しいことはＷｉｋｉ参照じゃ！
+助手：ええっ！いきなりWikiに振らないで少しは説明してくださいよ…ってもしかしてデジタルフィルタのことあまり良く知らないんじゃないですか？
+室長：うるさい!そんな本当のことをここで言わなくてもよいではないか。まあ簡単に言うとデジタルフィルタにはIIRとFIRがあって、当研究所では簡単でメリットが多いFIRフィルタを使っていくぞ。
+助手：それじゃFIRのメリットって何か教えてください。
+室長：一番大きな違いは直線位相のフィルタが作れるということだな。聞かれる前に答えとくと直線位相ということは位相が周波数によってずれないので波形が崩れないのじゃ。それに基本的に安定なフィルタになるので設計が楽というのもあるぞ。
+助手：それじゃあIIRってのはダメな子ですか？
+室長：そんなことはないぞ。そもそも人間は位相に鈍感だし、IIRは少ない計算量で必要な特性が得られるし、遅延時間が短いのでライブ演奏などでも使いやすいなどのメリットもあるのじゃ。だが当研究室では録音された音楽の再生ということを目的としているので遅延時間は問題とならないし、現在のパソコンは処理能力に余裕があるので計算量が増えても平気なのでFIRを採用するというわけじゃ。
+助手：でもデジタルフィルタって簡単に作れるのですか？難しい数学や高度なプログラミング技術が必要だったら嫌ですよ。それに室長だって数学が苦手でしょう。大丈夫ですか？
+室長：大丈夫だ、問題ない。
+助手：そのセリフはとっても不安になるんですけど。
+室長：ではFIRの解説は次回ということで。</description>
+    </item>
+    
+    <item>
+      <title>A03 FIRフィルタ　その1</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a03-fir%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF-%E3%81%9D%E3%81%AE1/</link>
+      <pubDate>Fri, 07 Dec 2012 21:28:38 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a03-fir%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF-%E3%81%9D%E3%81%AE1/</guid>
+      <description>室長：ではFIRフィルタの解説ということで話を進めるぞ。
+助手：お願いします。
+室長：詳しいことはWiki参照ということで。
+助手：いいかげんにしてください。
+室長：実はFIRフィルタは掛け算と足し算だけで出来ているのだ。たとえば係数(coefficient)が４つ（tap数4）のフィルタを考えるぞ。
+助手：係数とかtap数とかなんですか？
+室長：出力1つについて掛け算する個数がtap数で、その掛ける値が係数なのだ。それが足し算されて出力となる。実際の例を示した方がわかりやすいじゃろ。 例えば係数が　0.5 -0.5 0 0.002　の4つだとする。この係数こそがフィルタなのだ。 10 20 30 40 50 60 70 80 という8つのデータにこのフィルタで計算すると
+10×0.5=5 20×0.5+10x(-0.5)=5 30×0.5+20x(-0.5)+10*0=5 40×0.5+30x(-0.5)+20×0+10×0.002=5.02 50×0.5+40x(-0.5)+30×0+20×0.002=5.04 60×0.5+50x(-0.5)+40×0+30×0.002=5.06 70×0.5+60x(-0.5)+50×0+40×0.002=5.08 80×0.5+70x(-0.5)+60×0+50×0.002=5.1 80x(-0.5)+70×0+60×0.002=-39.88 80×0+70×0.002=0.14 80×0.002=0.16 このように計算されるのじゃ。
+助手：へー….　単純な掛け算と足し算が沢山あるだけですね。でもこれだとものすごい計算量になりませんか？　tap数8192のフィルタで96kのモノラル音声データを処理するだけで786432000回の積和計算が必要になりますね。3wayマルチアンプなら6ch必要だから6倍して4718592000回になりますよ。
+室長：心配ないぞ。FFTを使ってフィルタ畳み込みを高速化する方法を使えば計算量を劇的に減らすことが出きるのじゃ。CPUがATOMのマシンでもっと長いフィルタを計算する事も可能じゃ。
+助手：安心しました。でこの計算がどんな意味を持つんですか？
+室長：理論的な意味は別サイトを見てもらうことにして、まずは音を聞いてみようではないか。
+助手：理論や計算なしでいきなり音を聞くんですか？
+室長：そのほうが面白いだろう。理論や計算を示しているサイトはほかにいくらでもあるからな。そういうわけで次回はパソコンにソフトをインストールして実際に音を出してみるぞ。</description>
+    </item>
+    
+    <item>
+      <title>A04 UbuntuLinux</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a04-ubuntulinux/</link>
+      <pubDate>Sat, 08 Dec 2012 21:35:51 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a04-ubuntulinux/</guid>
+      <description>室長：今回はサクッとすすめるぞ。まずはパソコンを1台準備する。HDMI出力のついたノートパソコンなどが便利だぞ。それにUbuntuLinuxをインストールする。UbuntuStudioでも他のディストリでも構わないが当研究室ではユーザーの多いUbuntuのデスクトップ版を使っていく。
+助手：音楽再生にGUIは邪魔で音質劣化の原因になるのでVoyageMPDなどのほうが良いんじゃないですか？
+室長：再生するだけならばな。今回はフィルタを設計したり測定したりするのでXwindowは必須だ。ただしフィルタ設計や設定がすべて終わった後にVoyageMPDやVortexBoxに設定を移動して再生専用システムを作り音質向上を狙うことは可能じゃ。まああせらずに普通のUbuntuを使ってみてくれ。いきなり難しいことをしてLinuxを嫌いになられても困るからな。あと12.10を使っていくが12.04LTSでもほとんど同じ設定でいけるはずじゃ。
+助手：Windowsではダメなのですか。
+室長：そんなことはない。Windowsで良い音を出してる人も大勢おる。しかしLinuxはフリー（無料ではなくで自由と言う意味で）なのでいろいろなメリットがあるのじゃ。まあワシがＷｉｎｄｏｗｓをよく解らないというのが最大の理由だがな。そんなわけで当研究室ではWindowsは無視してLinuxでゆくのだ。
+助手：わかりました。 (30分経過) とりあえずUbuntuMagazineを参考にインストールが終了しました。このあとどうするんですか？
+室長：とりあえずLinuxでの最低限必要な知識がないと困る。エディタの使い方がわかることと、端末（terminal）を開いて基本操作がコマンドラインで出きるようになることができればとりあえずOKじゃ。
+助手：エディタは何を使えば良いんですか？
+室長：とりあえずは標準エディタのgeditで良いだろう。ただしVoyageMPDなどを使おうとするとテキストベースのエディタも使えないと困ることもある。nano vi(vim) emacsなどあるがここではGUI前提でgeditを使うことにする。詳しいことは他のサイトをあたってくれ。
+助手：なんとか頑張ってみます。
+室長：さて、Ubuntuはインストールしただけでいろんなソフトが入っているが、追加でいくつかのソフトをインストールする。ソフトウェアセンターからすべてインストールすることが出来るがまずはコマンドラインに慣れるために端末を使っていく。まずはUbuntuを最新の状態にしよう。端末から次のように入力してくれ。パスワードを求められたら入力する。
+sudo apt-get update sudo apt-get dist-upgrade 必要ならばここで再起動だ。 次に必要なソフトをインストールする。今回はbrutefirとsox、そしてasunderじゃ。
+sudo apt-get install brutefir sudo apt-get install sox sudo apt-get install asunder これで準備は完了じゃ。
+助手：それぞれ何をするソフトですか？
+室長：brutefirは入力されたサウンドデータにfirフィルタをかけて出力する中心となるソフトじゃ。soxはサンド関係のユーティリティソフトでbrutefirと連携して再生することができるぞ。asunderはCDリッピングソフトじゃ。再生するデータがなければ実験出来ないからな。それぞれの詳しい使い方を述べてるとキリがないので省略するぞ。
+助手：インストール終了しました。
+室長：よし、まずは音を出してみよう。テスト用のwavファイルを用意する。なければasunderで手持ちのCDからリッピングしてくれ。ファイルをカレントディレクトリにコピーしてコマンドラインから
+aplay test.wav と入力する。音がでなければ
+aplay -l でデバイスを調べて、-Dオプションをつけて再生してみてくれ。
+助手：再生出来ました。
+室長：よし、時間切れなのでBruteFIRでの音出しは次回だ。</description>
+    </item>
+    
+    <item>
+      <title>A05 BruteFIRで音を出す</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a05-brutefir%E3%81%A7%E9%9F%B3%E3%82%92%E5%87%BA%E3%81%99/</link>
+      <pubDate>Sun, 09 Dec 2012 21:49:49 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a05-brutefir%E3%81%A7%E9%9F%B3%E3%82%92%E5%87%BA%E3%81%99/</guid>
+      <description>室長：では前回の続きじゃ。BruteFIRとsoxはインストールされているな？
+助手：超オーケーです。
+室長：まずはbrutefirを起動して設定ファイルを作る。コマンドラインから
+brutefir とするだけじゃ。初回起動時に設定ファイルが無いと~/.brutefir_defaultが作られる。 次にフィルタ係数のテキストファイルを作る。filtertest1.txtという名前で
+filtertest1.txt
+0.5 -0.5 0 0.002 と数字4行のファイルを作る。 次にbrutefirの設定ファイルを作る。bruteconfig1.txtと言う名前で以下の内容を保存する。
+bruteconfig1.txt
+float_bits: 64; filter_length: 512; coeff &amp;quot;test1&amp;quot; { filename: &amp;quot;./filtertest1.txt&amp;quot;; }; input &amp;quot;lin&amp;quot;,&amp;quot;rin&amp;quot; { device: &amp;quot;file&amp;quot; { path: &amp;quot;/dev/stdin&amp;quot;; }; }; output &amp;quot;lout&amp;quot;,&amp;quot;rout&amp;quot; { device: &amp;quot;alsa&amp;quot; { device: &amp;quot;plughw&amp;quot;; }; dither: true; }; filter &amp;quot;ltest&amp;quot; { from_inputs: &amp;quot;lin&amp;quot;; to_outputs: &amp;quot;lout&amp;quot;; coeff: &amp;quot;test1&amp;quot;; }; filter &amp;quot;rtest&amp;quot; { from_inputs: &amp;quot;rin&amp;quot;; to_outputs: &amp;quot;rout&amp;quot;; coeff: &amp;quot;test1&amp;quot;; }; すべてのファイルがカレントディレクトリにあれば準備完了。まずテストをしてみよう。サンプル音声ファイルをtest1.wavとする。
+play test1.wav これで大抵の場合音が出るはずじゃ。次にbrutefirを通して音を聞いてみよう。</description>
+    </item>
+    
+    <item>
+      <title>A06 GNU Octaveでフィルタ特性を表示</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a06-gnu-octave%E3%81%A7%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%89%B9%E6%80%A7%E3%82%92%E8%A1%A8%E7%A4%BA/</link>
+      <pubDate>Mon, 10 Dec 2012 22:03:39 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a06-gnu-octave%E3%81%A7%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%89%B9%E6%80%A7%E3%82%92%E8%A1%A8%E7%A4%BA/</guid>
+      <description>の○太：ねえド○○も～ん、フィルタの特性を表示したいよぉ。なにかいい道具だしてよぉ。
+ド○○もん：だめだよの○太くん、ちゃんと勉強して自分で計算しなくちゃ。
+の○太：そんなこと無理だよ。なにかこう簡単にできる道具はないの？
+ド○○もん：しょうがないなぁ・・・、はい、の○太君　「GNU Octave～！」
+助手：疲れるからやめましょうよ。
+室長：そうだな、普通に戻すか。
+助手：octaveって何ですか。
+室長：octaveとはフリーの数値計算用の言語で、MATLABとの互換性もある。まさにド○○もんのひみつ道具なみの威力があるのだ。まずは例によってインストールするぞ。
+sudo apt-get install octave-signal octave-signalはoctaveの信号処理用のライブラリだ。octave本体がインストールされていなければ依存関係によって自動的にoctave本体もインストールされる。端末を開いてoctaveと入力すれば立ち上がる。
+助手：‘octave:1&amp;gt;’というのがoctaveのプロンプトですね。
+室長：とりあえず何も考えずに以下をコピペしてくれ。
+a=[0.5 -0.5 0 0.002]; [h,w]=freqz(a,1,4096,44100); semilogx(w,20*log10(abs(h))); 助手：グラフが表示されましたよ!
+室長：これが[0.5 -0.5 0 0.002]のfirフィルタのサンプリング周波数44.1KHzの信号にたいする特性じゃ。縦軸はdB、横軸は周波数の対数表示になってる。このグラフはgnuplotというソフトで描かれていて、このソフトも依存関係によってさっき自動的にインストールされたのじゃ。マウスカーソルをグラフ上に持っていけば座標が表示されるぞ。またマウスの右ボタンで範囲を指定すればその範囲がズームされるのだ。
+助手：まさにひみつ道具なみの威力ですね！これを見るとさっき再生されたのが低音がカットされてシャカシャカした音だったのが良く解りますね。
+室長：次回はoctaveで関数ファイルを作ってもっと便利にしていくぞ。</description>
+    </item>
+    
+    <item>
+      <title>A07 Octaveの関数ファイルを作る</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a07-octave%E3%81%AE%E9%96%A2%E6%95%B0%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B/</link>
+      <pubDate>Tue, 11 Dec 2012 20:12:40 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a07-octave%E3%81%AE%E9%96%A2%E6%95%B0%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B/</guid>
+      <description>室長：octaveの基本文法は他のサイトをあたってくれ。とりあえず前回の解説をするぞ。最初の行はaに行ベクトルを格納している。セミコロン(;)は出力を抑制するときにつける。つぎの行はfreqzという関数でフィルタを計算している。freqzの説明はoctaveのコマンドラインで
+help freqzとすれば表示される。freqzが定義されているファイルの場所も表示されるはずじゃ。必要とあればfreqz.mの内容をみてどういう計算がされているのか知ることも出来る。最後の3行目だがこれはsemilogxという関数でX軸を対数表示にしてグラフを描いている。普通のグラフはplot、y軸が対数の場合にはsemilogyじゃ。
+20*log10()というのは何をしているのかわかるな？
+助手：それくらいは私でも解ります。dBに変換しているんですよ。n倍をdBにするには
+20*log10(n)
+n dBが何倍かの計算は
+10^(n/20)
+です。
+室長：それではdB計算を関数にしてみてくれ。
+助手：えーと、functionとendfunctionで挟めばいいんでしたね。
+function db = a2db (a) db=20*log10(a);endfunctionfunction a = db2a (db) a=10.^(db/20);endfunctionこんな感じでどうですか。aやdbはローカル変数となって他には影響しないんですよね。
+室長：よいだろう。ただ毎回これを入力するのは手間なので関数ファイルというのをつくる。1個の関数をコメントをつけて１つのファイルにする。”ファイル名は間数名.m”とする。ファイルの場所はパスが通っている場所にする。カレントディレクトリならOKじゃ。べつのディレクトリにするばあいには ~/.octaverc ファイルを作ってaddpath (“パスをとおすディレクトリの絶対パス”);とでもしとけば良い。
+a2db.m
+#function db = a2db (a)#増幅率をdBに変換#function db = a2db (a) db=20*log10(a);endfunctiondb2a.m
+#function a = db2a (db)#dBを増幅率に変換する#function a = db2a (db) a=10.^(db/20);endfunctionこの2つのファイルを作っておけばいちいち入力しなくても最初から組み込まれている関数のように使えるのだ。他の関数から呼び出すことも可能じゃ。help a2dbとすればコメントが表示されるぞ。
+ではフィルタを表示するfilterplotという関数を作ってみてくれ。コメントも忘れずにな。今作った関数a2dbもそのまま使用できるぞ。
+助手：出来ました。
+filterplot.m
+#function filterplot (a,fs[,n][,fmt])#フィルタaのグラフをdB表示、x軸対数で表示#nを省略すれば4096function filterplot (a,fs,n,fmt) n1=4096; fmt1=&amp;#39;3&amp;#39;; if (exist(&amp;#34;n&amp;#34;) &amp;amp;&amp;amp; ischar(n)) fmt1=n; elseif (exist(&amp;#34;n&amp;#34;)) n1=n; if (exist(&amp;#34;fmt&amp;#34;)) fmt1=fmt; endif endif [h,w]=freqz(a,1,n1,fs); semilogx(w,a2db(abs(h)),fmt1); grid on;endfunction室長：センスのない関数だな。まあ動けばよい。これでfilterplot(a,44100);と入力するだけでグラフが表示できる。この関数ファイルはこれからも使うので作って保存しておいてくれ。次回はoctave-signalにあるfir1という関数を使ってフィルタを設計してみよう。</description>
+    </item>
+    
+    <item>
+      <title>A08 Octaveでフィルタ設計fir1</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a08-octave%E3%81%A7%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E8%A8%AD%E8%A8%88fir1/</link>
+      <pubDate>Wed, 12 Dec 2012 20:12:41 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a08-octave%E3%81%A7%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E8%A8%AD%E8%A8%88fir1/</guid>
+      <description>室長：今回はoctaveを使って実用になるフィルタを作っていくのだ。とはいっても難しいことはない。面倒なことはすべてoctaveがやってくれる。今回はfir1という関数を使うぞ。この関数は直線位相のfirフィルタを計算してくれる。
+助手：fir1の説明はoctaveを起動して’help fir1’と入力するんでしたね。簡単に説明をお願いします。
+室長：最初の引数nはフィルタの次数だ。n+1がtap数になる。tap数は通常2の乗数にする。 次のwはband edgeの指定だ。0と1の間の値を指定する。
+助手：あれ、サンプリング周波数fsは関係ないのですか？
+室長：その通り。0.5を指定したフィルタをサンプリング周波数44.1kのデータに適応するとfs/2が1なので11025Hz、96kなら24kHzになる。
+助手：おなじフィルタの周波数特性がサンプリング周波数によって変わるのか。ということはフィルタを設計する時にはサンプリング周波数を決めてから係数を計算しなければならないですね。
+室長：そうじゃ。例えばカットオフ3kHzのローパスフィルタが欲しい場合にはサンプリング周波数別に係数を計算する必要があり、実際に再生する時にはサンプリング周波数にあった係数に切り替えなければならない。
+助手：それは面倒ですね。
+室長：別の手としてはサンプリング周波数を１つに決めて、再生ソフト側でサンプリングレートを変換してしまうというのがある。どちらがよいかはケースバイケースじゃな。デジタルチャンデバなどでもDCX2496はどの入力もすべて96kに変換して計算している。イコライザのAPEQ2ProDIOもすべての入力を48kHzに変換している。ＤＥＱＸでは入力データのサンプリング周波数に応じて係数を切り替えているようじゃ。ワシは面倒が嫌いなのでサンプリングレートの方を変換して係数は1つでいくことにしてる。
+助手：次のtypeはフィルタのタイプを指定するのですね。チャンネルデバイダを作るのに必要なのはローパス、バンドパス、ハイパスですね。
+室長：それぞれ ‘low’ ‘pass’ ‘high’ を指定してやればよい。ただ’high’を指定するとnに偶数しか受け付けないので都合が悪い。したがってハイパスフィルタも’pass’を使って設計する。
+助手：windowというのは何ですか？
+室長：窓関数の指定だ。何種類もあるぞ。指定しなければハミング窓(hamming)が使われる。窓関数の説明は面倒なので省くが、窓関数によって帯域内のリップルや肩特性、阻止帯域の減衰量などが変わるのだ。まあ実際にやってみるのがよいだろう。
+助手：どの窓関数を選べばよいのか教えてください。
+室長：ワシはカイザー窓(kaiser)を使っておる。カイザー窓では長さのほかにパラメータとしてβ値を指定する。この値によって特性が変化するのだ。
+助手：なぜカイザー窓を選んだんですか？
+室長：名前が一番強そうじゃろ？
+助手：……..
+室長：とりあえず実際に計算してみよう。サンプリング周波数96kで3wayのミッドレンジという想定だ。300～2500Hzのバンドパスフィルタとする。tap数は512で計算する。
+fs=96000;tap=512;cf=[300 2500];w=cf/(fs/2);a=fir1(tap-1,w,&amp;#39;pass&amp;#39;);b=fir1(tap-1,w,&amp;#39;pass&amp;#39;,kaiser(tap,8));clf;hold on;filterplot(a,fs,&amp;#39;1&amp;#39;);filterplot(b,fs,&amp;#39;2&amp;#39;);緑がβ8のカイザー窓、赤がデフォルトのハミング窓じゃ。阻止帯域の減衰量の違いがわかる。右の肩のところを拡大してみるぞ。 肩特性はハミング窓の方が良いのがわかる。一般的に阻止帯域の減衰量を多くすれば肩特性は悪くなる。
+助手：なるほど、よくわかりますね。ところで2500Hzでのハイカットは良いのですが、左側の300Hzでのローカットは減衰量が全然足りませんよ。どうなっているのですか？
+室長：これは簡単に言ってしまえばtap数が足りないのだ。またハイカットとローカットで特性が違うように見えるが実は同じなのだ。長くなったのでこのへんの話は次回にするぞ。</description>
+    </item>
+    
+    <item>
+      <title>A09 FIRフィルタのtap数</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a09-fir%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%81%AEtap%E6%95%B0/</link>
+      <pubDate>Thu, 13 Dec 2012 20:12:42 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a09-fir%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%81%AEtap%E6%95%B0/</guid>
+      <description>i室長：前回のグラフはsemilogxを使ってX軸が対数表示だったので、通常のplotの表示にしてみる。octaveを起動して以下のとおり入力するぞ。
+fs=96000;tap=512;cf=[300 2500];w=cf/(fs/2);a=fir1(tap-1,w,&amp;#39;pass&amp;#39;,kaiser(tap,8));[h w]=freqz(a,1,4096,fs);clf;plot(w,a2db(abs(h)));axis ([0 2800 -10 0]);どうじゃ、左右対称だろう。だが人間の感覚にあわせて対数表示にすると低域側の減衰量が足りないことになるのだ。周波数の分解能も一定なのだが対数で考えると低域側で不足することになる。
+助手：なるほど。同じ20Hzの差でも10000Hzと10020Hzでは0.2%としか違わないけど20Hzと40Hzでは1オクターブ違いますからね。
+室長：ではtap数を変えて表示してみよう。
+fs=96000;cf=[300 2500];w=cf/(fs/2);clf;hold on;c=1;for tap=[512 1024 2048 4096 8192] a=fir1(tap-1,w,&amp;#39;pass&amp;#39;,kaiser(tap,8)); fmt=num2str(c++); filterplot(a,96000,16384,fmt);endforどうじゃ？
+助手：サンプリング96kで300Hz程度のクロスならばtap数1024でアナログフィルタ並、4096あればデジタルフィルタらしい切れ味になりますね。
+室長：うむ、サブウーファー用にもっと低いクロスで急峻な特性にするにはさらに長いtap数が必要になるのだ。 そうだ、フィルタの周波数特性ばかり見てフィルタ自身の波形をみるのをわすれとった。
+fs=96000;tap=4096;cf=[300 2500];w=cf/(fs/2);a=fir1(tap-1,w,&amp;#39;pass&amp;#39;,kaiser(tap,8));clf;plot(a);さて次回から実際に3way用のフィルタを実際に作ってデジタルチャンデバを作っていくぞ。</description>
+    </item>
+    
+    <item>
+      <title>A10 3WAY用フィルタの設計</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a10-3way%E7%94%A8%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%81%AE%E8%A8%AD%E8%A8%88/</link>
+      <pubDate>Fri, 14 Dec 2012 20:12:44 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a10-3way%E7%94%A8%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%81%AE%E8%A8%AD%E8%A8%88/</guid>
+      <description>室長：ではoctaveを使って3way用のフィルタを作ろう。サンプリング周波数96kHzでクロス周波数300Hz・2.5kHzの3way用のフィルタを作ってくれ。
+助手：はい。tap数は4096で良さそうですね。octaveのコマンドラインで
+fs=96000;f1=300/(fs/2);f2=2500/(fs/2);tap=4096;low=fir1(tap-1,f1,&amp;#39;low&amp;#39;,kaiser(tap,8));mid=fir1(tap-1,[f1 f2],&amp;#39;pass&amp;#39;,kaiser(tap,8));high=fir1(tap-1,[f2 0.9999],&amp;#39;pass&amp;#39;,kaiser(tap,8));clf;hold on;filterplot(low,fs,&amp;#39;1&amp;#39;);filterplot(mid,fs,&amp;#39;2&amp;#39;);filterplot(high,fs,&amp;#39;3&amp;#39;);これでどうです？
+室長：よいだろう。ではこれをbrutefirで読み込めるようにしよう。 octaveのsaveを使う。 brutefirの係数はカンマではなく、改行区切りの必要があるので、縦横を変換してから保存してくれ。 複素数でなければシングルクオートで変換できるぞ。
+助手：ええと、octaveのコマンドラインで’help save’で説明を見て……. -asciiオプションを使えば良さそうですね。-textだとヘッダが着くのでそのままではbrutefirで読めなくなります。さっきのグラフを描いた状態から続けて、
+low=low&amp;#39;;mid=mid&amp;#39;;high=high&amp;#39;;save -ascii low96k300 low;save -ascii mid96k300_2500 mid;save -ascii high96k2500 high;これでカレントディレクトリにlow96k300、mid96k300_2500、high96k2500の3つのテキストファイルが出来ました。
+ちょっと思ったんですがoctaveのスクリプトファイルにしたらいちいちオクターブを起動しなくてすむのでパソコンに詳しく無い人には便利だと思うんですよ。たとえばこんなファイルを作って
+ファイル名：fir3way
+#!/usr/bin/octave -qprintf (&amp;#34;tap数4096の3WAY用のフィルタを作ります。\n&amp;#34;)f=menu(&amp;#34;サンプリング周波数を選んでください&amp;#34;,&amp;#34;44.1k&amp;#34;,&amp;#34;48k&amp;#34;,&amp;#34;88.2k&amp;#34;,&amp;#34;96k&amp;#34;,&amp;#34;176.4k&amp;#34;,&amp;#34;192k&amp;#34;)switch f case 1 fs=44100; case 2 fs=48000; case 3 fs=88200; case 4 fs=96000; case 4 fs=176400; case 5 fs=192000;endswitchf1=input(&amp;#34;low-mid間のクロス周波数を入力してください：&amp;#34;)f2=input(&amp;#34;mid-high間のクロス周波数を入力してください：&amp;#34;)c_l=f1/(fs/2);c_h=f2/(fs/2);tap=4096;low=fir1(tap-1,c_l,&amp;#39;low&amp;#39;,kaiser(tap,8));mid=fir1(tap-1,[c_l c_h],&amp;#39;pass&amp;#39;,kaiser(tap,8));high=fir1(tap-1,[c_h 0.9999],&amp;#39;pass&amp;#39;,kaiser(tap,8));low=low&amp;#39;;mid=mid&amp;#39;;high=high&amp;#39;;save -ascii low low;save -ascii mid mid;save -ascii high high;printf(&amp;#34;low mid highの3つの係数を保存しました\n&amp;#34;)端末のコマンドラインから
+chmod +x fir3way なんてすればどうですか？
+室長：たしかにoctaveはスクリプトを実行ファイルにすることができるし、そうすればoctaveを意識せずにフィルタの設計なども出来る。しかしfirでのローパス・ハイパス・バンドパスフィルタ設計だけできてもあまり意味は無い。もっと上を目指すにはoctaveは強力な道具となるのだ。ここを読んでいる人には是非octaveの基本的な使い方はマスターしてほしいのだ。まあ誰でも使える実行スクリプトを作るのが面倒というのが最大の理由だがな。
+助手：室長だってoctaveに詳しく無いのに偉そうに….　まあたしかにエラー処理とか誰でも使えるようにするのは面倒ですね。
+室長：先に進もう。作ったフィルタをbrutefirで試してみてくれ。
+助手：わかりました。以前にtap数4のフィルタで音出ししたときと同じようにやってみます。エディタでbrutefirの設定ファイルを作ります。
+bruteconfig2.txt</description>
+    </item>
+    
+    <item>
+      <title>A11 BruteFirの3WAY設定</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a11-brutefir%E3%81%AE3way%E8%A8%AD%E5%AE%9A/</link>
+      <pubDate>Sat, 15 Dec 2012 20:12:45 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a11-brutefir%E3%81%AE3way%E8%A8%AD%E5%AE%9A/</guid>
+      <description>室長：今回はbrutefirを3way用に設定するぞ。3wayということは左右合わせて6chの出力が必要になる。今回はノートパソコンのHDMIからLPCMで出力してみよう。
+助手：Linuxからサウンドデバイスを確認する方法の説明をお願いします。
+室長：brutefirはいろんな出力先を設定できるが、当研究室ではALSAを使う。他の出力を使いたい人はbrutefirのサイトのマニュアルを読んでくれ。まずalsaの確認法だがコマンドラインで
+aplay -l これでlinuxが認識しているサウンドデバイスが表示できるはずだ。 次に
+aplay -L これで定義されているPCM出力がわかる
+助手：対応しているサンプリングレートなどはどうやればわかりますか？
+室長:ワシも詳しくは知らぬ。とりあえずは/proc/asound/下のデバイス名のサブフォルダ内を見てみる。codec#0とかcodec#2などのファイルを見ると中に対応サンプリングレートと対応ビットが書いてある。
+助手：このノートパソコンではHDMIの出力はcard0、device3のようです。
+室長：brutefirの設定ファイルはこうなる。
+bruteconfig3.txt float_bits: 64; sampling_rate: 96000; filter_length: 4096; coeff &amp;quot;low&amp;quot; { filename: &amp;quot;./low96k300&amp;quot;; }; coeff &amp;quot;mid&amp;quot; { filename: &amp;quot;./mid96k300_2500&amp;quot;; }; coeff &amp;quot;high&amp;quot; { filename: &amp;quot;./high96k2500&amp;quot;; }; input &amp;quot;lin&amp;quot;,&amp;quot;rin&amp;quot; { device: &amp;quot;file&amp;quot; { path: &amp;quot;/dev/stdin&amp;quot;; }; }; output &amp;quot;h0&amp;quot;,&amp;quot;h1&amp;quot;,&amp;quot;h2&amp;quot;,&amp;quot;h3&amp;quot;,&amp;quot;h4&amp;quot;,&amp;quot;h5&amp;quot;,&amp;quot;h6&amp;quot;,&amp;quot;h7&amp;quot; { device: &amp;quot;alsa&amp;quot; { device: &amp;quot;hw:0,3&amp;quot;; }; sample: &amp;quot;S24_4LE&amp;quot;; channels: 8/0,1,2,3,4,5,6,7; dither: true; }; filter &amp;quot;llow&amp;quot; { from_inputs: &amp;quot;lin&amp;quot;; to_outputs: &amp;quot;h0&amp;quot;; coeff: &amp;quot;low&amp;quot;; }; filter &amp;quot;rlow&amp;quot; { from_inputs: &amp;quot;rin&amp;quot;; to_outputs: &amp;quot;h1&amp;quot;; coeff: &amp;quot;low&amp;quot;; }; filter &amp;quot;lmid&amp;quot; { from_inputs: &amp;quot;lin&amp;quot;; to_outputs: &amp;quot;h2&amp;quot;; coeff: &amp;quot;mid&amp;quot;; }; filter &amp;quot;rmid&amp;quot; { from_inputs: &amp;quot;rin&amp;quot;; to_outputs: &amp;quot;h3&amp;quot;; coeff: &amp;quot;mid&amp;quot;; }; filter &amp;quot;lhigh&amp;quot; { from_inputs: &amp;quot;lin&amp;quot;; to_outputs: &amp;quot;h6&amp;quot;; coeff: &amp;quot;high&amp;quot;; }; filter &amp;quot;rhigh&amp;quot; { from_inputs: &amp;quot;rin&amp;quot;; to_outputs: &amp;quot;h7&amp;quot;; coeff: &amp;quot;high&amp;quot;; }; 接続は</description>
+    </item>
+    
+    <item>
+      <title>A12 Octaveでフィルタ設計fir2</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a12-octave%E3%81%A7%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E8%A8%AD%E8%A8%88fir2/</link>
+      <pubDate>Sun, 16 Dec 2012 20:12:47 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a12-octave%E3%81%A7%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E8%A8%AD%E8%A8%88fir2/</guid>
+      <description>室長：前回の音がなぜいまいちなのかわかるか？
+助手：調整してないからって自分で言ってたじゃないですか。
+室長：そうだったな。だがあのシステムでは調整範囲が狭いのだ。brutefirにもイコライザ機能があるがとりあえずそれを使わないことにすると、カットオフ周波数の変更とＡＶアンプのch間のレベル調整しかない。それだとユニットやエンクロージャ、部屋の低域特性などがある程度フラットでないと調整し切れずにマルチアンプは失敗に終わる。
+助手：それじゃあアナログのチャンネルデバイダはほとんどうまくいかないんじゃないですか。
+室長：その通り。そこを先人たちは血のにじむような努力をしてセッティングで調節し、ユニットを交換し、エンクロージャを作り替え、部屋の改造をし、場合によってはイコライザを併用した。そして素晴らしい音を出せたシステムは一部で、多くはまともな音が出ずに失敗に終わったのじゃ。いまでもネット上でマルチアンプにするよりもシングルアンプのほうが良いという意見をいくつか見ることが出来る。
+助手：たしかにマルチアンプだどうしても必要機材が増えるので同じコストだとシングルアンプに比べて不利な気もします。
+室長：でもな、ワシの経験だと予算が5万～１００万程度の範囲ではマルチアンプで自作スピーカーの方がシングルアンプよりもメリットがある。
+助手：室長の経験は大抵の場合あてにならないですがね。
+室長：いちいち余計な事をいわんでよろしい。ともかくワシは先人のような血のにじむ努力はしたくないので、ユニットやエンクロージャ、部屋の特性はデジタルフィルタで補正することにする。そこでoctaveのfir2関数じゃ。
+助手：もう後は言われなくてもわかります。octaveのコマンドラインで’help fir2’として説明を読んで実際にフィルタを作って特性を見てみれば良いんですね。
+fs=96000;tap=4096;f=[0 80 110 300 310 fs/2];m=[10 10 0 0 -300 -300];f=f/(fs/2);m=db2a(m);a=fir2(tap-1,f,m,8192,kaiser(tap,8));clf;filterplot(a,fs);低域を+10dB持ち上げたローパスフィルタを作って見ました。
+室長：低域のgainが0dBを越えてるな。これだとその周波数で入力が大きいと出力がクリッピングしてしまう。brutefirは内部演算は64bitで行っているので大丈夫だがサウンドデバイスに出力するときに0dB以上は出力できない。そこでbrutefirの設定ファイルで減衰させるか、フィルタの自体を変更して0dBを越えないようにする。まあ20Hzでフルスケールの入力があることは稀だからその辺は意図的にレベルオーバーを許容する考えもあるぞ。今回はピークが0dBになるようにフィルタを計算する。
+助手：計算する前にmを-10dBするか、計算後のフィルタの係数を-10dBすれば良さそうですね。係数の方をを-10dBしてみます。さっきの計算に続けて
+a=a*db2a(-10);filterplot(a,fs);fとmを指定するだけで自由な特性のフィルタが作れますね。あとはどういうフィルタを作れば良いか測定していけば良いのですね。
+室長：その通りだ。だが測定の前に次回はfirフィルタについて知っておきたいことをちょっとだけ考えてみよう。</description>
+    </item>
+    
+    <item>
+      <title>A13 FIRフィルタ その2</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a13-fir%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF-%E3%81%9D%E3%81%AE2/</link>
+      <pubDate>Mon, 17 Dec 2012 20:12:48 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a13-fir%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF-%E3%81%9D%E3%81%AE2/</guid>
+      <description>室長：測定編のまえに、FIRフィルタの基本的な事をおさえておくぞ。いくらこの研究室がなるべく理論に触れないといっても最低限必要な知識があるからな。
+助手：難しい数学はいやですよ。
+室長：大丈夫だ、問題ない。簡単な事しかいわん。まず入力と出力が全く同じになるフィルタはどんなフィルタかな？
+助手：これは簡単です。係数が掛け算されて足されるのだから係数に１が１つだけあるフィルタです。たとえば[ 1 0 0 0 ]とかです。
+室長：うむ。またフィルタの前にゼロをつけても出力は同じというのはわかるな。[ 0 1 0 0 0 ] 出力される時間がゼロの数ぶん遅れる。また後ろにゼロをつけても出力結果は変わらない。あとフィルタの出力を半分にするにはフィルタの係数に0.5をかければ良い。
+助手：わかります。
+室長：あと直線位相のフィルタの形は左右対称なのじゃ。理論的な事は他のサイトをあたってくれ。 この左右対称な直線位相フィルタの前にゼロを挿入して こうしても時間遅れがあるだけでやっぱり直線位相フィルタじゃ。
+助手：なるほど、係数のなかの位置が変わっても波形自体が左右非対象なら直線位相なのですね。
+室長：あとフィルタの次数が偶数か奇数かで特性が変わってくる。フィルタの次数が偶数（tap数は奇数）でないと左右対称の直線位相ハイパスフィルタが作れないのじゃ。なぜならtap数が偶数で左右対称にしようとすると必ずピークの幅が2サンプルになってしまうからじゃ。
+fs=9600;f=[0 300 310 fs/2];m=[-300 -300 0 0];f=f/(fs/2);m=db2a(m);tap=512;a=fir2(tap-1,f,m,8192,kaiser(tap,8));tap=511;b=fir2(tap-1,f,m,8192,kaiser(tap,8));b=[b;0];　#bの後ろのゼロを1つ追加clf;hold on;plot(a);plot(b,&amp;#39;1&amp;#39;);助手：tap数が1違うだけでずいぶん波形が変わりますね。
+室長：この波形の変化を嫌うならtap数を奇数で設計して、後ろにゼロを１つ付ければよい。brutefirのtap数は2の乗数と決まっているからな。1/2サンプル分出力時間がずれるのでやるなら全部のフィルタでやった方が良いじゃろう。音を聴いて違いがわかるかは試していないがの。
+あと信号にフィルタをかけたときの波形の見方をやってみよう。octaveのfftconv関数を使う。
+助手：はいはい。いつも通り’help fftconv’をみてと。
+a=[zeros(100,1) ; ones(441,1) ; -ones(441,1) ; zeros(100,1)];b=fir1(510, 500/22050, &amp;#34;low&amp;#34;);c=fir1(510, 500/22050, &amp;#34;high&amp;#34;);ab=fftconv(a,b);ac=fftconv(a,c);clf;hold on;plot(a,&amp;#39;1&amp;#39;);plot(ab,&amp;#39;2&amp;#39;);plot(ac,&amp;#39;3&amp;#39;);1kHzの矩形波の波形1周期分を500Hzのローパスフィルタ、ハイパスフィルタにかけてみました。
+ところでfftconvではaとbの順序がどちらでも良いようですが？
+室長：実はな、フィルタの係数とデータの波形は同じ扱いなのじゃ。例えばこれから測定するインパルスレスポンスはそのままフィルタの係数として使える。またいままで使ってきた自作のfilterplot関数はフィルタ波形をfftして周波数成分を表示していたわけじゃ。
+じゃあ500Hzのハイパスフィルタと2kHzのローパスフィルタを畳み込むとどうなるかな。
+助手：順序はどうでもよいですが、ハイパスフィルタを通した後にローパスフィルタを通すイメージですね。ということは500Hzから２kHzのバンドパスフィルタになるはずです。
+a=fir1(510, 2000/22050, &amp;#34;low&amp;#34;);b=fir1(510, 500/22050, &amp;#34;high&amp;#34;);c=fftconv(a,b);clf;subplot(2,1,1);plot(c);subplot(2,1,2);filterplot(c,44100);室長：あらかじめわかっているのなら最初からバンドパスフィルタを設計したほうが面倒が無いがのう。 さて次回だが測定の前に一回寄り道じゃ。</description>
+    </item>
+    
+    <item>
+      <title>A14 エコーを作ってみよう</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a14-%E3%82%A8%E3%82%B3%E3%83%BC%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86/</link>
+      <pubDate>Tue, 18 Dec 2012 20:12:49 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a14-%E3%82%A8%E3%82%B3%E3%83%BC%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86/</guid>
+      <description>室長：測定にいく前に一回寄り道をするぞ。
+助手：なにをするんですか？
+室長：エコーを作ってみよう。フィルタの係数が[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5]だとどんな出力になるかな。
+助手：最初は１だけなので入力がそのまま出力されます。しばらくゼロがつづいて0.5がくるってことは時間差があって入力を1/2にしたものが元の入力に足されますね。ということは反射が一回あったのと同じですね。反射波をいっぱい作ればそれっぽいエコーを作っていけるということですね。
+室長：うむ。本当は反射するたびに高域が減衰するようにしないとリアルにならないがな。試しにこんなデータを作って聴いてみよう。octaveのコマンドラインで
+a=zeros(1,32768);b=1;n=1;while(n &amp;lt;= 32768 ) a(n)=b*b; b=b*0.973; n=n+int32(1000*b);endwhilea=a*db2a(-20);plot(a);a=a.&amp;#39;;save -ascii coefftest a;助手：tap数32768に合わせてbrutefirの設定ファイルを作って44.1kで再生してみます。
+bruteconfig3.txt float_bits: 64; filter_length: 32768; coeff &amp;quot;test1&amp;quot; { filename: &amp;quot;./coefftest&amp;quot;; }; input &amp;quot;lin&amp;quot;,&amp;quot;rin&amp;quot; { device: &amp;quot;file&amp;quot; { path: &amp;quot;/dev/stdin&amp;quot;; }; }; output &amp;quot;lout&amp;quot;,&amp;quot;rout&amp;quot; { device: &amp;quot;alsa&amp;quot; { device: &amp;quot;plughw&amp;quot;; }; dither: true; }; filter &amp;quot;ltest&amp;quot; { from_inputs: &amp;quot;lin&amp;quot;; to_outputs: &amp;quot;lout&amp;quot;; coeff: &amp;quot;test1&amp;quot;; }; filter &amp;quot;rtest&amp;quot; { from_inputs: &amp;quot;rin&amp;quot;; to_outputs: &amp;quot;rout&amp;quot;; coeff: &amp;quot;test1&amp;quot;; }; コマンドラインで</description>
+    </item>
+    
+    <item>
+      <title>A15 プリエコー</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a15-%E3%83%97%E3%83%AA%E3%82%A8%E3%82%B3%E3%83%BC/</link>
+      <pubDate>Wed, 19 Dec 2012 20:12:51 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a15-%E3%83%97%E3%83%AA%E3%82%A8%E3%82%B3%E3%83%BC/</guid>
+      <description>助手：今回は読者からのお便りがあります。「firフィルターのプリエコーについて教えてください。知り合いのオーディオまにあにプリエコーがあると音が悪くなるといわれました。どうしたらよいですか？」
+室長：ちょっとまて。このサイトは出来たばかりでまだグーグルでもまともに検索できん。メールアドレスも書いてないし、コメントもない。読者からお便りがくるわけない。「捏○」では….
+助手：そんな「○造」だなんて人聞きの悪い….演出の範囲ですよ。さっさと答えてください。
+室長：しかしプリエコーの問題は難しくて当研究室にはちと荷が重い。だがわかる範囲で適当に述べるので眉にたっぷり唾をつけてきいてくれ。
+助手：大丈夫です、そんなこと言わなくてもこのサイトの内容を鵜呑みにするような人はいませんよ。
+室長：まずプリエコーとはfirフィルタを通すことによって実際の信号の前に波形が現れてしまう現象じゃ。これをみてくれ。サンプリング周波数44100、4096tap、2.5kHzのローパスフィルタの波形じゃ。
+fs=44100;f=2500;a=fir1(4095,f/fs*2,&amp;#39;low&amp;#39;,kaiser(4096,8));plot(a);線形位相のfirフィルタは左右対称になるのでこの様にインパルスの前に波形が見える。このフィルタに信号を通すとこうなる。
+fs=44100;f=2500;a=fir1(4094,f/fs*2,&amp;#39;low&amp;#39;,kaiser(4095,8));s=[zeros(100,1) ; ones(441,1) ; -ones(441,1) ; zeros(100,1)];as=fftconv(a,s);clf;hold on;plot(s);plot(as,&amp;#39;1&amp;#39;);実際の信号が現れる前に余計な波形が見える。これがプリエコーだ。
+自然界にはこのような現象がないのは常識としてわかるな。だがこれは数学的には正しいのだ。なぜならすべての波形は無限に続く様々な周波数を加算したものと考えるからじゃ。その結果、急激な立ち上がりの波形ができている。その波形をフィルタで周波数を分けると隠れていた周波数成分が見えてしまうのだ。
+助手：数学的に正しいのなら問題ないですね。
+室長：そうはいかん。数学的に正しいといっても音が正しいとは限らん。 たとえばこの波形をトータルでfftすれば周波数成分は正しい。
+fs=44100;f=2500;a=fir1(4095,f/fs*2,&amp;#39;low&amp;#39;,kaiser(4096,8));s=[zeros(100,1) ; ones(441,1) ; -ones(441,1) ; zeros(100,1)];as=fftconv(a,s);clf;plot(as,&amp;#39;1&amp;#39;);だか前半のこの部分だけを見てくれ。 プリエコーの部分だけを切り取ってfftしてみる。 この部分にはカットオフ周波数の成分が実際の音の前に現れていることが分かる。シンバルをカツン!とたたく前に音がでては明らかにおかしい。
+助手：じゃあプリエコーが無いフィルタにすれば良いじゃないですか。
+室長：そうはいかん。位相を変えないためには左右対称になるのでプリエコーは必然だ。
+助手：……..
+室長：まあ簡単に言ってしまえば「正解はない」と言うことじゃ。市販のCDプレーヤーでもプリエコーが無いフィルタとあるフィルタを切り替えできるものがある。どちらかが明らかに優れていれば切り替えなどつけないだろう。だが正解はないと言っても当研究室の見解を述べておこう。
+助手：なんだか良く分からなくなってきましたがお願いします。
+室長：まずCDプレーヤーなどのローパスフィルタとチャンネルデバイダのフィルタとで分けて考えるぞ。なぜならCDプレーヤのローパスフィルタは不要な帯域を捨てるためのもので残った信号だけを考えれば良い。一方チャンデバの場合は不要な帯域ではなく、必要な帯域を分割した後でスピーカーで再生して空間合成して正しい波形を再生しなければならんからじゃ。
+助手：それが関係あるのですか？
+室長：おおありじゃ。まずはCDプレーヤーのローパスフィルタじゃが、ワシの考えではプリエコーが無いフィルタの方が自然だと思う。Ayreなどが使っているミニマムフェイズフィルターなどが優れていると思うぞ。ただワシの耳の高域特性は極めて怪しいので聴感上の意見を言えないのが残念じゃがの。
+助手：じゃあチャンネルデバイダもプリエコーが無いフィルタを使った方が良いんじゃないですか？
+室長：チャンネルデバイダの場合には条件が違う。必要な帯域を分割した上でスピーカーで再生し、空間で合成されてリスニングポイントでどう聞こえるかを考えなくてはならない。位相がズレては正しい波形が再現できないのだ。この波形を見てくれ。
+fs=44100;f=2500;a=fir1(4094,f/fs*2,&amp;#39;low&amp;#39;,kaiser(4095,8));b=fir1(4094,f/fs*2,&amp;#39;high&amp;#39;,kaiser(4095,8));s=[zeros(100,1) ; ones(441,1) ; -ones(441,1) ; zeros(100,1)];as=fftconv(a,s);bs=fftconv(b,s);clf;hold on;plot(as,&amp;#39;1&amp;#39;);plot(bs,&amp;#39;2&amp;#39;);plot(as+bs,&amp;#39;3&amp;#39;);赤がローパスフィルタに通した波形、緑がハイパスフィルタに通した波形、青がその二つを加算した波形だ。これをみると合成された青の波形にプリエコーは無い。つまり空間合成が理想的にいけばローパスフィルタのプリエコーとハイパスフィルタのプリエコーは打ち消しあって聞こえないことになる。
+助手：ほんとだ!　これならプリエコーがあっても良いじゃないですか！
+室長：だが空間合成が常にうまくいくとは限らない。スピーカーユニット間の距離、スピーカーユニット特性のバラツキ、リスニングポイント、部屋の反射などに影響を受ける。低い周波数ほどうまくいくが高い周波数になるとちょっとしたリスニンング位置のズレによってうまく打ち消されずにプリエコーが聞こえてしまう。
+助手：じゃあ高い周波数ではプリエコーをなるべく小さくするようにすれば良いのですか？
+室長：その通り。ちなみに直線位相のフィルターではプリエコーは遮断特性を急峻にすれば多くなり、緩くすればすくなくなる。言い換えれば周波数の重なりを少なくすれば時間的な重なりは多くなり、遮断を緩やかにして周波数帯域の重なりが多くなれば時間的な重なりは少なくなる。両方良くすることは無理なのじゃ。
+助手：具体的にどうフィルタを設計すれば良いか教えてください。
+室長：今日は疲れたので次回にするぞ。</description>
+    </item>
+    
+    <item>
+      <title>A16 プリエコー2</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a16-%E3%83%97%E3%83%AA%E3%82%A8%E3%82%B3%E3%83%BC2/</link>
+      <pubDate>Thu, 20 Dec 2012 20:12:52 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/a16-%E3%83%97%E3%83%AA%E3%82%A8%E3%82%B3%E3%83%BC2/</guid>
+      <description>室長：firフィルタで位相を保ったままプリエコーなくすことは無理だ。したがってプリエコーをなくすためにバターワースなどのＩＩＲフィルタを使うという判断も当然アリだ。ワシは位相を保つことが何より重要と考えているわけではないのでIIRでも別に構わんと思っとる。だが当研究室ではＦＩＲフィルタで細かな補正までしていく方針だ。良い音を目指すのに方法は１つではないのだ。
+さて、firで位相を保つためにはプリエコーが避けられないが、その量（プリエコーの時間）を減らすことは出来る。
+助手：tap数（フィルタの次数+1）を減らすのですね。
+室長：そのとおり。フィルタの中心にインパルスがくるとするとプリエコーはタップ数の1/2までしかありえない。tap数を減らせばプリエコーの時間も減るわけじゃ。
+助手：しかしtap数を減らすと低域の精度が出ません。
+室長：低域と高域でtap数を変えて設計すれば良い。
+助手：でもbrutefirではどの係数も同じ長さになりますよ。
+室長：前後にゼロをつめて短い方を長い係数に合わせれば良いのじゃ。
+助手：なるほど。ではバンドパスフィルタで低域と高域のtap数を変えたいときはどうしますか。
+室長：fftconv関数で二つのフィルタを畳み込めばよいのじゃ。早速やってみてくれ。とりあえずtap数は遮断周波数の波長の5倍でやってみてくれ。
+助手：分かりました。では前回と同じサンプリング周波数96kでクロス300Hz・2.5kHzの3way用のフィルタを作ってみます。
+fs=96000;f1= 300;f2=2500;t1=floor(fs/f1*5);t2=floor(fs/f2*5);t1=t1+mod(t1,2);t2=t2+mod(t2,2);low=fir1(t1,f1/fs*2,&amp;#39;low&amp;#39;,kaiser(t1+1,8));m1=fir1(t1,f1/fs*2,&amp;#39;high&amp;#39;,kaiser(t1+1,8));m2=fir1(t2,f2/fs*2,&amp;#39;low&amp;#39;,kaiser(t2+1,8));high=fir1(t2,f2/fs*2,&amp;#39;high&amp;#39;,kaiser(t2+1,8));mid=fftconv(m1,m2);clf;hold on;filterplot(low,fs,&amp;#39;1&amp;#39;);filterplot(mid,fs,&amp;#39;2&amp;#39;);filterplot(high,fs,&amp;#39;3&amp;#39;);midの波形です。ちなみに以前に作ったフィルタのmidはこんな感じです。 遮断特性が緩やかになった代わりにプリエコーがかなり減ってます。
+室長：後は前後にゼロを付けて3つのフィルタの長さを2の乗数に揃えれば出来上がりじゃ。</description>
+    </item>
+    
+  </channel>
+</rss>

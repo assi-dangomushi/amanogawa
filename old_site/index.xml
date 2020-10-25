@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>旧サイト on 天の川オーディオ研究室</title>
+    <link>https://assi-dangomushi.github.io/amanogawa/old_site/</link>
+    <description>Recent content in 旧サイト on 天の川オーディオ研究室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 16 Jun 2020 19:23:13 +0900</lastBuildDate>
+    
+	<atom:link href="https://assi-dangomushi.github.io/amanogawa/old_site/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>旧・天の川オーディオ研究室</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/old_site/01/</link>
+      <pubDate>Mon, 03 Dec 2012 19:23:13 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/old_site/01/</guid>
+      <description>古いサイトですが現在でも通用する内容が多いので残しておきます。
+元はWordPressで作ったサイトですが、静的サイトに変換しました。
+自作スピーカーとPCオーディオ、PCチャンデバを使用してマルチアンプを研究しています。 必要なものはパソコン1台とマイクだけ。 OSも含めてすべてフリーソフト。 パソコン1台にオーディオプレイヤー、サンプリングレートコンバーター、チャンネルデバイダ、イコライザ、測定器など必要な機能をすべて集約できます。
+さあ、あなたもデジタルフィルタをを自在に操ってマルチアンプに入門！
+頭を使う:測定してデジタルフィルタを設計する（FIRフィルタ）
+体を使う:スピーカー工作をする
+これが21世紀のオーディオです！
+使用するソフト
+ UbuntuLinux VoyageMPD BruteFIR jack jconvolver GNU Octave glsweep など  登場人物
+室長：天の川オーディオラボ（研究室）の室長。オーディオ好きだが、デジタル信号処理には全くの素人。偉そうな事を言っているが内容は極めて怪しい。
+助手：天の川オーディオラボの助手。デジタル信号処理に詳しい者を募集したのに応募者が1人だったため仕方なく採用された。
+おまけ O氏とGPL
+さらにおまけ
+FIRと血中濃度（この項のみオーディオとは関係ありません）</description>
+    </item>
+    
+  </channel>
+</rss>
