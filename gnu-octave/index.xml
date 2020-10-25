@@ -14,7 +14,7 @@
     <item>
       <title>GNU Octaveの歩き方</title>
       <link>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0001octave/</link>
-      <pubDate>Mon, 05 Oct 2020 14:00:32 +0900</pubDate>
+      <pubDate>Mon, 25 May 2020 14:00:32 +0900</pubDate>
       
       <guid>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0001octave/</guid>
       <description>GNU Octaveの歩き方 GNU Octave をこれから始める人に役に立ちそうなことをまとめました。具体的な文法などは他のサイト、記事にあたってください。
@@ -35,7 +35,7 @@ octave&amp;gt; pkg list パッケージのロード パッケージはインス�
     <item>
       <title>Raspberry Pi でOctave を使う（2020年5月）</title>
       <link>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0002pi/</link>
-      <pubDate>Mon, 05 Oct 2020 14:00:50 +0900</pubDate>
+      <pubDate>Thu, 07 May 2020 14:00:50 +0900</pubDate>
       
       <guid>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0002pi/</guid>
       <description>2020年5月7日現在の状況 raspbian buster でGNU Octave （4.4.1）が正常に動作しない。（OpenGLの関係？） GUIが乱れる、グラフがプロットできない。計算はできる。

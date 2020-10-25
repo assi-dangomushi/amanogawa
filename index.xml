@@ -6,7 +6,7 @@
     <description>Recent content on 天の川オーディオ研究室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 05 Oct 2020 14:00:50 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2020 13:49:41 +0900</lastBuildDate>
     
 	<atom:link href="https://assi-dangomushi.github.io/amanogawa/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>GNU Octaveの歩き方</title>
       <link>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0001octave/</link>
-      <pubDate>Mon, 05 Oct 2020 14:00:32 +0900</pubDate>
+      <pubDate>Mon, 25 May 2020 14:00:32 +0900</pubDate>
       
       <guid>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0001octave/</guid>
       <description>GNU Octaveの歩き方 GNU Octave をこれから始める人に役に立ちそうなことをまとめました。具体的な文法などは他のサイト、記事にあたってください。
@@ -35,7 +35,7 @@ octave&amp;gt; pkg list パッケージのロード パッケージはインス�
     <item>
       <title>なぜスピーカーを作るのか？</title>
       <link>https://assi-dangomushi.github.io/amanogawa/column/0001why/</link>
-      <pubDate>Sun, 04 Oct 2020 23:10:02 +0900</pubDate>
+      <pubDate>Thu, 06 Nov 2014 23:10:02 +0900</pubDate>
       
       <guid>https://assi-dangomushi.github.io/amanogawa/column/0001why/</guid>
       <description>「だから、作れ」と_whyは言った  when you don’t create things, you become defined by your tastes rather than ability. your tastes only narrow &amp;amp; exclude people. so create. – Why the lucky stiff
@@ -47,8 +47,7 @@ octave&amp;gt; pkg list パッケージのロード パッケージはインス�
 スピーカー工作は簡単なのであれこれ考えている暇があったらとりあえず作ってみることをおすすめします。 キットでも雑誌の付録でも、拾ったユニットでも何でも良いです。 うまく行かなくたって大丈夫。 測定して原因を考え補正すれば大抵の場合にどうにかなります。
 ネット上で自作スピーカーだと安くて高音質なものが作れるのか？とかメーカー製に匹敵する音がでるのかなどの質問を見かけることが あります。 はっきり言って愚問です。 全く自作に興味のない人にまで作れとは言いませんが、もし自作スピーカーにちょっとでも興味があるのなら作ってみましょう！
 あのメーカーのスピーカーの音は嫌いだ、このメーカーに限るとか好みを言っていないで
-とにかく作れ！話はそれからだ！(重要なので繰り返してみました)
-2014年11月6日</description>
+とにかく作れ！話はそれからだ！(重要なので繰り返してみました)</description>
     </item>
     
     <item>
@@ -123,7 +122,7 @@ FIRと血中濃度（この項のみオーディオとは関係ありません�
     <item>
       <title>Raspberry Pi でOctave を使う（2020年5月）</title>
       <link>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0002pi/</link>
-      <pubDate>Mon, 05 Oct 2020 14:00:50 +0900</pubDate>
+      <pubDate>Thu, 07 May 2020 14:00:50 +0900</pubDate>
       
       <guid>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0002pi/</guid>
       <description>2020年5月7日現在の状況 raspbian buster でGNU Octave （4.4.1）が正常に動作しない。（OpenGLの関係？） GUIが乱れる、グラフがプロットできない。計算はできる。
@@ -134,7 +133,7 @@ Ubuntu で正常動作した！    OS グラフプロット 備考     raspbian 
     <item>
       <title>自作には密閉がお勧め</title>
       <link>https://assi-dangomushi.github.io/amanogawa/column/0002closed/</link>
-      <pubDate>Mon, 05 Oct 2020 13:24:30 +0900</pubDate>
+      <pubDate>Wed, 12 Nov 2014 13:24:30 +0900</pubDate>
       
       <guid>https://assi-dangomushi.github.io/amanogawa/column/0002closed/</guid>
       <description>自作スピーカーのオススメは？ 初心者向けの話です。
@@ -146,8 +145,7 @@ Ubuntu で正常動作した！    OS グラフプロット 備考     raspbian 
 では実際の部屋の中で調整しやすい（セッティング、イコライザなど）のはどれでしょう
  密閉 バスレフ、ダブルバスレフ バックロード、共鳴管 オープンバッフル  オープンバッフルは部屋やセッティングの影響が大きいので難しいと思います。 あと私の経験ではバスレフのほうが密閉より部屋とセッティングの影響が大きいです。 バスレフの共振と部屋の共振が重なるとボワボワの低音になってしまいます。 逆に部屋の特性で低音が少ない周波数をうまくバスレフで補強できると素晴らしい音が出ます。 密閉は大当たりもない代わりにハズレもない感じです。
 これらのことを考えるとやはり自作スピーカーの低音部は密閉で測定してイコライザで補正するのが簡単・確実だと考えます。
-ただし、オープンバッフルは作ったことがないので挑戦してみたいです。 （意外と調整しやすければ自作スピーカーはオープンバッフルに限る！なんて言い出すかも？）
-2014年11月12日</description>
+ただし、オープンバッフルは作ったことがないので挑戦してみたいです。 （意外と調整しやすければ自作スピーカーはオープンバッフルに限る！なんて言い出すかも？）</description>
     </item>
     
     <item>
