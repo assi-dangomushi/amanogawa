@@ -12,19 +12,19 @@
     <title>Install RaspberryPi_Xover :: 天の川オーディオ研究室</title>
 
     
-    <link href="../../css/nucleus.css?1626492506" rel="stylesheet">
-    <link href="../../css/fontawesome-all.min.css?1626492506" rel="stylesheet">
-    <link href="../../css/hybrid.css?1626492506" rel="stylesheet">
-    <link href="../../css/featherlight.min.css?1626492506" rel="stylesheet">
-    <link href="../../css/perfect-scrollbar.min.css?1626492506" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1626492506" rel="stylesheet">
-    <link href="../../css/atom-one-dark-reasonable.css?1626492506" rel="stylesheet">
-    <link href="../../css/theme.css?1626492506" rel="stylesheet">
-    <link href="../../css/hugo-theme.css?1626492506" rel="stylesheet">
+    <link href="../../css/nucleus.css?1626496134" rel="stylesheet">
+    <link href="../../css/fontawesome-all.min.css?1626496134" rel="stylesheet">
+    <link href="../../css/hybrid.css?1626496134" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1626496134" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1626496134" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1626496134" rel="stylesheet">
+    <link href="../../css/atom-one-dark-reasonable.css?1626496134" rel="stylesheet">
+    <link href="../../css/theme.css?1626496134" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1626496134" rel="stylesheet">
     
     
 
-    <script src="../../js/jquery-3.3.1.min.js?1626492506"></script>
+    <script src="../../js/jquery-3.3.1.min.js?1626496134"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -53,14 +53,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../js/lunr.min.js?1626492506"></script>
-<script type="text/javascript" src="../../js/auto-complete.js?1626492506"></script>
+<script type="text/javascript" src="../../js/lunr.min.js?1626496134"></script>
+<script type="text/javascript" src="../../js/auto-complete.js?1626496134"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/assi-dangomushi.github.io\/amanogawa\/";
     
 </script>
-<script type="text/javascript" src="../../js/search.js?1626492506"></script>
+<script type="text/javascript" src="../../js/search.js?1626496134"></script>
 
     
   </div>
@@ -964,7 +964,7 @@
 <h2 id="ラズパイチャンデバインストール法">ラズパイチャンデバインストール法</h2>
 <p>面倒はイヤ、とっとと使わせろ！という人向けのページです。
 自己責任でお願いします。</p>
-<p>2021年7月16日現在</p>
+<p>2021年7月17日現在</p>
 <ol>
 <li>Raspberry Pi OS Lite(32bit)のイメージをmicroSDに書き込む。(ググれ！)</li>
 <li>Raspberry Pi のネットワークの設定をする。（ググれ！）</li>
@@ -974,7 +974,7 @@
 大抵の場合はスピーカーの距離と音量差の設定だけが有効になる。
 距離は全て同じに設定、音量はユニットの能率に応じて適当に調整</li>
 <li>mpdに音楽ファイルやラジオ局を登録する。（ググれ！）</li>
-<li>mpd を操作するためにタブレット・スマホ・PCのいずれかにMPD cliantをインストールする。（ググれ！）</li>
+<li>mpd を操作するためにタブレット・スマホ・PCのいずれかにMPD clientをインストールする。（ググれ！）</li>
 </ol>
 <p>amaiir の設定を間違うとユニットを破損する危険があるので要注意！<br>
 ゲインはチェックしてないので、クリップしないように自分で調整すること！<br>
@@ -987,6 +987,12 @@ bash raspi_xover_install.sh
 初期設定ではmpdからamaiir経由でHDMIに出力されます。<br>
 mpdの設定ファイルは/etc/mpd.conf<br>
 amaiirの設定ファイルは/home/pi/amaiir.conf</p>
+<p>サンプルのconfファイルは3wayでクロス200Hz,2500Hz<br>
+LF、RF : Low<br>
+LB、RB : Mid<br>
+LS、RS : High<br>
+CF、LFE : mute<br>
+となってます。</p>
 <p>以上！</p>
 
 
@@ -1595,19 +1601,19 @@ amaiirの設定ファイルは/home/pi/amaiir.conf</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../js/clipboard.min.js?1626492506"></script>
-    <script src="../../js/perfect-scrollbar.min.js?1626492506"></script>
-    <script src="../../js/perfect-scrollbar.jquery.min.js?1626492506"></script>
-    <script src="../../js/jquery.sticky.js?1626492506"></script>
-    <script src="../../js/featherlight.min.js?1626492506"></script>
-    <script src="../../js/highlight.pack.js?1626492506"></script>
+    <script src="../../js/clipboard.min.js?1626496134"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1626496134"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1626496134"></script>
+    <script src="../../js/jquery.sticky.js?1626496134"></script>
+    <script src="../../js/featherlight.min.js?1626496134"></script>
+    <script src="../../js/highlight.pack.js?1626496134"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../js/modernizr.custom-3.6.0.js?1626492506"></script>
-    <script src="../../js/learn.js?1626492506"></script>
-    <script src="../../js/hugo-learn.js?1626492506"></script>
+    <script src="../../js/modernizr.custom-3.6.0.js?1626496134"></script>
+    <script src="../../js/learn.js?1626496134"></script>
+    <script src="../../js/hugo-learn.js?1626496134"></script>
     
         
-            <script src="../../mermaid/mermaid.js?1626492506"></script>
+            <script src="../../mermaid/mermaid.js?1626496134"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
