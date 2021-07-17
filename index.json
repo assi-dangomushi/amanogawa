@@ -1,5 +1,12 @@
 [
 {
+	"uri": "https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/0000/",
+	"title": "Install RaspberryPi_Xover",
+	"tags": [],
+	"description": "",
+	"content": "ラズパイチャンデバインストール法 面倒はイヤ、とっとと使わせろ！という人向けのページです。 自己責任でお願いします。\n2021年7月16日現在\n Raspberry Pi OS Lite(32bit)のイメージをmicroSDに書き込む。(ググれ！) Raspberry Pi のネットワークの設定をする。（ググれ！） インストール用スクリプトを実行する。（下記参照） amaiir の設定をする。(confファイルを見れば大体わかるはず) AVアンプと接続、AVアンプの設定はDirectとかStraightとか、イコライザ系を全部パスする設定。 大抵の場合はスピーカーの距離と音量差の設定だけが有効になる。 距離は全て同じに設定、音量はユニットの能率に応じて適当に調整 mpdに音楽ファイルやラジオ局を登録する。（ググれ！） mpd を操作するためにタブレット・スマホ・PCのいずれかにMPD cliantをインストールする。（ググれ！）  amaiir の設定を間違うとユニットを破損する危険があるので要注意！\nゲインはチェックしてないので、クリップしないように自分で調整すること！\nゲインが0dB以下でもクリップすることがあるので-3dBくらいにした方が安全。\nインストール用スクリプト（実行は自己責任で！） インストール後にかってに再起動します。\nwget https://assi-dangomushi.github.io/amanogawa/text/raspi_xover_install.sh bash raspi_xover_install.sh このスクリプトでいろいろインストールされます。(sox, mpd, nim, libfftw3-devなど)\n初期設定ではmpdからamaiir経由でHDMIに出力されます。\nmpdの設定ファイルは/etc/mpd.conf\namaiirの設定ファイルは/home/pi/amaiir.conf\n以上！\n"
+},
+{
 	"uri": "https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/0001/",
 	"title": "はじめに",
 	"tags": [],
