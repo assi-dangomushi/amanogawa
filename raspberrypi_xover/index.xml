@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RaspberryPi_Xover on 天の川オーディオ研究室</title>
+    <link>https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/</link>
+    <description>Recent content in RaspberryPi_Xover on 天の川オーディオ研究室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 06 Jun 2021 10:48:35 +0900</lastBuildDate>
+    
+	<atom:link href="https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>はじめに</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/0001/</link>
+      <pubDate>Sun, 06 Jun 2021 09:50:59 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/0001/</guid>
+      <description>なぜラズパイでマルチアンプ？  安価 RaspberryPi3A+なら税込み送料込で3300円 (2021年6月) 入手しやすい HDMI出力があるのでAVアンプと組み合わせることにより安価にマルチアンプシステムが構成できる OSを含め基本的にフリーソフトなので人にコピーして配ってもOK（ライセンスは守ってね）  マルチアンプにはどのラズパイがお勧め？ Pi2以降ならば可能です。picoはダメ。
+現在新品で簡単に入手可能(2021年6月)なのは
+ Pi0W Pi3A+ Pi4B  です。
+Pi0WはCPUの能力が低いのでIIRフィルタなら可能ですがFIRフィルタはちょっと難しいです。
+新規で購入する場合には
+ オーディオ専用にする : Pi3A+ オーディオ以外にも遊びたい、GUIも使いたい : Pi4B  オーディオ専用にする場合にはPi3A+をお勧めします。
+Pi3A+がお勧めの理由
+ 安価 HDMIコネクタが標準サイズ(Pi4はmicroHDMI、Pi0はminiHDMI) メモリが512Mだがオーディオ専用なら十分 USBコネクタが1つだけどオーディオ専用ならキーボード・マウスは要らない Pi4Bより処理能力が低いがオーディオ用には十分 Pi4Bより消費電力・発熱が少ない 有線LANがないが無線LANは内蔵してる  システム構成 ラズパイとAVアンプをHDMI接続 AVアンプとスピーカー(3way)をスピーカーケーブルで接続 音源はUSBメモリ・ハードディスクに入れてラズパイに挿すか、Wifi経由のNAS インターネットラジオも可</description>
+    </item>
+    
+    <item>
+      <title>必要機材</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/0002/</link>
+      <pubDate>Mon, 14 Jun 2021 10:20:48 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/0002/</guid>
+      <description>必要機材 必須なもの ラズパイ一式
+ ラズパイ本体 microSDカード(8GB以上) 5VのUSB電源・ケーブル(ラズパイの機種によってコネクタが異なるので注意) AVアンプ(HDMI/7.1ch対応のもの) HDMIケーブル(ラズパイの機種によってコネクタが異なるので注意) スピーカー一式 3wayでネットワークがバイパスできるもの(自作もしくは市販品の改造) スピーカーケーブル 必要ならスタンドとか  設定時に必要だか普段はいらないもの 測定器材
+ 測定用のノートパソコン(持ち運ばなければデスクトップでも可) USBケーブル オーディオ・インターフェイス(USB接続でファンタム電源内蔵のもの) 測定用のコンデンサマイク マイクケーブル マイクスタンド(手持ちでもできないことはないが&amp;hellip;)  録音できれば良いので、測定用パソコンとオーディオ・インターフェイスの代わりに外部マイクの使えるハンディレコーダー（ファンタム電源を内蔵しているもの）でも良いです。
+ハンディレコーダー内蔵マイクは特性がでたらめな可能性があるので測定用マイクを使ったほうが良いです。
+ フィルタ設計用のパソコン 数値計算ソフト(Gnu Octaveなど)  機材以外で必要なもの  オーディオとコンピュータを楽しむ心と時間のゆとり 知的好奇心 コンピュータ・Linuxの知識 (テキストファイルの編集ができればなんとかなります)  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,17 +6,33 @@
     <description>Recent content on 天の川オーディオ研究室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 05 Oct 2020 13:49:41 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jun 2021 10:20:48 +0900</lastBuildDate>
     
 	<atom:link href="https://assi-dangomushi.github.io/amanogawa/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>はじめに</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/0001/</link>
+      <pubDate>Sun, 06 Jun 2021 09:50:59 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/0001/</guid>
+      <description>なぜラズパイでマルチアンプ？  安価 RaspberryPi3A+なら税込み送料込で3300円 (2021年6月) 入手しやすい HDMI出力があるのでAVアンプと組み合わせることにより安価にマルチアンプシステムが構成できる OSを含め基本的にフリーソフトなので人にコピーして配ってもOK（ライセンスは守ってね）  マルチアンプにはどのラズパイがお勧め？ Pi2以降ならば可能です。picoはダメ。
+現在新品で簡単に入手可能(2021年6月)なのは
+ Pi0W Pi3A+ Pi4B  です。
+Pi0WはCPUの能力が低いのでIIRフィルタなら可能ですがFIRフィルタはちょっと難しいです。
+新規で購入する場合には
+ オーディオ専用にする : Pi3A+ オーディオ以外にも遊びたい、GUIも使いたい : Pi4B  オーディオ専用にする場合にはPi3A+をお勧めします。
+Pi3A+がお勧めの理由
+ 安価 HDMIコネクタが標準サイズ(Pi4はmicroHDMI、Pi0はminiHDMI) メモリが512Mだがオーディオ専用なら十分 USBコネクタが1つだけどオーディオ専用ならキーボード・マウスは要らない Pi4Bより処理能力が低いがオーディオ用には十分 Pi4Bより消費電力・発熱が少ない 有線LANがないが無線LANは内蔵してる  システム構成 ラズパイとAVアンプをHDMI接続 AVアンプとスピーカー(3way)をスピーカーケーブルで接続 音源はUSBメモリ・ハードディスクに入れてラズパイに挿すか、Wifi経由のNAS インターネットラジオも可</description>
+    </item>
+    
+    <item>
       <title>GNU Octaveの歩き方</title>
-      <link>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0001octave/</link>
+      <link>https://assi-dangomushi.github.io/amanogawa/gnu_octave/0001octave/</link>
       <pubDate>Mon, 25 May 2020 14:00:32 +0900</pubDate>
       
-      <guid>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0001octave/</guid>
+      <guid>https://assi-dangomushi.github.io/amanogawa/gnu_octave/0001octave/</guid>
       <description>GNU Octaveの歩き方 GNU Octave をこれから始める人に役に立ちそうなことをまとめました。具体的な文法などは他のサイト、記事にあたってください。
 GNU Octave とは GNU Octave はフリーの数値計算ソフト（言語）でMATLABと互換性が（ある程度）あります。私はオーディオの測定・解析・フィルタ設計などに使っています。 初心者にも分かりやすく、グラフなども簡単に描けます。
 GNU Octave　公式サイト https://www.gnu.org/software/octave/
@@ -120,11 +136,24 @@ FIRと血中濃度（この項のみオーディオとは関係ありません�
     </item>
     
     <item>
+      <title>必要機材</title>
+      <link>https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/0002/</link>
+      <pubDate>Mon, 14 Jun 2021 10:20:48 +0900</pubDate>
+      
+      <guid>https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/0002/</guid>
+      <description>必要機材 必須なもの ラズパイ一式
+ ラズパイ本体 microSDカード(8GB以上) 5VのUSB電源・ケーブル(ラズパイの機種によってコネクタが異なるので注意) AVアンプ(HDMI/7.1ch対応のもの) HDMIケーブル(ラズパイの機種によってコネクタが異なるので注意) スピーカー一式 3wayでネットワークがバイパスできるもの(自作もしくは市販品の改造) スピーカーケーブル 必要ならスタンドとか  設定時に必要だか普段はいらないもの 測定器材
+ 測定用のノートパソコン(持ち運ばなければデスクトップでも可) USBケーブル オーディオ・インターフェイス(USB接続でファンタム電源内蔵のもの) 測定用のコンデンサマイク マイクケーブル マイクスタンド(手持ちでもできないことはないが&amp;hellip;)  録音できれば良いので、測定用パソコンとオーディオ・インターフェイスの代わりに外部マイクの使えるハンディレコーダー（ファンタム電源を内蔵しているもの）でも良いです。
+ハンディレコーダー内蔵マイクは特性がでたらめな可能性があるので測定用マイクを使ったほうが良いです。
+ フィルタ設計用のパソコン 数値計算ソフト(Gnu Octaveなど)  機材以外で必要なもの  オーディオとコンピュータを楽しむ心と時間のゆとり 知的好奇心 コンピュータ・Linuxの知識 (テキストファイルの編集ができればなんとかなります)  </description>
+    </item>
+    
+    <item>
       <title>Raspberry Pi でOctave を使う（2020年5月）</title>
-      <link>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0002pi/</link>
+      <link>https://assi-dangomushi.github.io/amanogawa/gnu_octave/0002pi/</link>
       <pubDate>Thu, 07 May 2020 14:00:50 +0900</pubDate>
       
-      <guid>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0002pi/</guid>
+      <guid>https://assi-dangomushi.github.io/amanogawa/gnu_octave/0002pi/</guid>
       <description>2020年5月7日現在の状況 raspbian buster でGNU Octave （4.4.1）が正常に動作しない。（OpenGLの関係？） GUIが乱れる、グラフがプロットできない。計算はできる。
 raspbian buster 公開直後から不具合情報が上がってましたが、いまだに動作した報告を見つけられませんし、実際に動作しません。
 Ubuntu で正常動作した！    OS グラフプロット 備考     raspbian stretch ○ Pi4では使えない   raspbian buster 32bit カーネル ×    raspbian buster 64bit カーネル ×    ubuntu server 19.10.1 32bit × サポート期限2020年7月   ubuntu server 19.10.1 64bit ○ サポート期限2020年7月   ubuntu server 20.04 32bit ×    ubuntu server 20.</description>

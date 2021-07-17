@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0001octave/</loc>
+    <loc>https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/0001/</loc>
+    <lastmod>2021-06-06T09:50:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://assi-dangomushi.github.io/amanogawa/gnu_octave/0001octave/</loc>
     <lastmod>2020-05-25T14:00:32+09:00</lastmod>
   </url>
   
@@ -28,12 +33,17 @@
   </url>
   
   <url>
+    <loc>https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/0002/</loc>
+    <lastmod>2021-06-14T10:20:48+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://assi-dangomushi.github.io/amanogawa/old_site/a_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E7%B7%A8/</loc>
     <lastmod>2020-06-16T19:44:26+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://assi-dangomushi.github.io/amanogawa/gnu-octave/0002pi/</loc>
+    <loc>https://assi-dangomushi.github.io/amanogawa/gnu_octave/0002pi/</loc>
     <lastmod>2020-05-07T14:00:50+09:00</lastmod>
   </url>
   
@@ -78,7 +88,12 @@
   </url>
   
   <url>
-    <loc>https://assi-dangomushi.github.io/amanogawa/gnu-octave/</loc>
+    <loc>https://assi-dangomushi.github.io/amanogawa/raspberrypi_xover/</loc>
+    <lastmod>2021-06-06T10:48:35+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://assi-dangomushi.github.io/amanogawa/gnu_octave/</loc>
     <lastmod>2020-10-05T13:49:41+09:00</lastmod>
   </url>
   
@@ -154,7 +169,7 @@
   
   <url>
     <loc>https://assi-dangomushi.github.io/amanogawa/</loc>
-    <lastmod>2020-10-05T13:49:41+09:00</lastmod>
+    <lastmod>2021-06-14T10:20:48+09:00</lastmod>
   </url>
   
   <url>
