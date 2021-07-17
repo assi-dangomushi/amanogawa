@@ -51,7 +51,7 @@ fi
 ## playlists にラジオを登録
 #sudo cp playlists/* /var/lib/mpd/playlists/
 echo "http://174.36.206.197:8000" | sudo tee /var/lib/mpd/playlists/VeniceClassic.m3u
-echo "http://185.33.21.111:80" | sudo tee /var/lib/mpd/playlists/AdoreJazzRadio.m3u
+echo "http://185.33.21.111:80/ajazz_128" | sudo tee /var/lib/mpd/playlists/AdoreJazzRadio.m3u
 
 ## usbメモリをmusic下にリンク
 sudo mkdir  /var/lib/mpd/music/usb
